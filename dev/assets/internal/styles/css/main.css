@@ -503,7 +503,7 @@ svg * {
     [id*="trans-"]:hover path {
       fill: #A668DF !important; }
   [id*="trans-"].active {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
     [id*="trans-"].active path {
       fill: #8500ff !important; }
   [id*="trans-"].shown {
@@ -515,19 +515,41 @@ svg * {
   [id*="acteur-"]:hover [id*="frame"] {
     fill: #FFFC00 !important; }
     [id*="acteur-"]:hover [id*="frame"] + path {
-      fill: #A668DF !important; }
+      fill: #EBFFCE !important; }
   [id*="acteur-"]:hover [id*="indicator"] {
     fill: #A668DF !important; }
+  [id*="acteur-"].related [id*="frame"] + path {
+    fill: #8500ff !important; }
+  [id*="acteur-"].related [id*="indicator"] {
+    fill: #8500ff !important; }
   [id*="acteur-"].active [id*="frame"] {
     fill: #FFFC00 !important; }
     [id*="acteur-"].active [id*="frame"] + path {
-      fill: #8500ff !important; }
+      fill: #EBFFCE !important; }
   [id*="acteur-"].active [id*="indicator"] {
-    fill: #8500ff !important; }
-  [id*="acteur-"].related [id*="frame"] + path {
     fill: #EBFFCE !important; }
-  [id*="acteur-"].related [id*="indicator"] {
-    fill: #EBFFCE !important; }
+
+[id*="yeux"] {
+  animation-duration: 18s;
+  animation-iteration-count: infinite; }
+  [id*="pharmacien"] [id*="yeux"] {
+    animation-delay: 1s; }
+  [id*="etat_quebec"] [id*="yeux"] {
+    animation-delay: 2s; }
+  [id*="etat_canada"] [id*="yeux"] {
+    animation-delay: 3s; }
+  [id*="actionnaire_ext"] [id*="yeux"] {
+    animation-delay: 4s; }
+  [id*="employeur"] [id*="yeux"] {
+    animation-delay: 4.5s; }
+  [id*="assureur_prive"] [id*="yeux"] {
+    animation-delay: 3.5s; }
+  [id*="serge"] [id*="yeux"] {
+    animation-delay: 1.5s; }
+  [id*="suzanne"] [id*="yeux"] {
+    animation-delay: 2.5s; }
+  [id*="ramq"] [id*="yeux"] {
+    animation-delay: .5s; }
 
 [id*="oeil_ferme"],
 [id*="oeil_ouvert"] {
@@ -536,28 +558,33 @@ svg * {
   [id*="pharmacien"] [id*="oeil_ferme"],
   [id*="pharmacien"] [id*="oeil_ouvert"] {
     animation-delay: 2s; }
-  [id*="etat-quebecois"] [id*="oeil_ferme"],
-  [id*="etat-quebecois"] [id*="oeil_ouvert"] {
+  [id*="etat_quebec"] [id*="oeil_ferme"],
+  [id*="etat_quebec"] [id*="oeil_ouvert"] {
     animation-delay: 1s; }
-  [id*="etat-canadien"] [id*="oeil_ferme"],
-  [id*="etat-canadien"] [id*="oeil_ouvert"] {
+  [id*="etat_canada"] [id*="oeil_ferme"],
+  [id*="etat_canada"] [id*="oeil_ouvert"] {
     animation-delay: 4s; }
-  [id*="actionnaire-exterieur"] [id*="oeil_ferme"],
-  [id*="actionnaire-exterieur"] [id*="oeil_ouvert"] {
+  [id*="actionnaire_ext"] [id*="oeil_ferme"],
+  [id*="actionnaire_ext"] [id*="oeil_ouvert"] {
     animation-delay: 3s; }
   [id*="employeur"] [id*="oeil_ferme"],
   [id*="employeur"] [id*="oeil_ouvert"] {
     animation-delay: 3.5s; }
-  [id*="assureur"] [id*="oeil_ferme"],
-  [id*="assureur"] [id*="oeil_ouvert"] {
+  [id*="assureur_prive"] [id*="oeil_ferme"],
+  [id*="assureur_prive"] [id*="oeil_ouvert"] {
     animation-delay: 1.5s; }
-
-[id*="oeil_ouvert"] {
-  animation-name: clignement_ouvert; }
+  [id*="serge"] [id*="oeil_ferme"],
+  [id*="serge"] [id*="oeil_ouvert"] {
+    animation-delay: 2.5s; }
+  [id*="suzanne"] [id*="oeil_ferme"],
+  [id*="suzanne"] [id*="oeil_ouvert"] {
+    animation-delay: 4.5s; }
+  [id*="ramq"] [id*="oeil_ferme"],
+  [id*="ramq"] [id*="oeil_ouvert"] {
+    animation-delay: .5s; }
 
 [id*="oeil_ferme"] {
-  opacity: 0;
-  animation-name: clignement_ferme; }
+  opacity: 0; }
 
 @keyframes clignement_ouvert {
   0% {
@@ -609,21 +636,21 @@ svg * {
   100% {
     transform: rotate(0deg); } }
 
-@keyframes regarde_gauche {
+@keyframes regarde {
   38% {
     transform: translate(0em, 0em); }
   38.5% {
-    transform: translate(-0.48em, -0.28em); }
+    transform: translate(-0.08em, -0.04em); }
   49.5% {
-    transform: translate(-0.48em, -0.28em); }
+    transform: translate(-0.08em, -0.04em); }
   50% {
     transform: translate(0em); }
   88% {
     transform: translateX(0em); }
   88.5% {
-    transform: translateX(0.68em); }
+    transform: translateX(0.1em); }
   99.5% {
-    transform: translateX(0.68em); }
+    transform: translateX(0.1em); }
   100% {
     transform: translateX(0em); } }
 

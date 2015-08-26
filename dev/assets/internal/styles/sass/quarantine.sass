@@ -68,7 +68,7 @@ svg *
 		path
 			fill: $accent !important
 	&.active
-		transform: scale(1.3)
+		transform: scale(1.4)
 		path
 			fill: $dk-accent !important
 	&.shown
@@ -84,19 +84,19 @@ svg *
 		[id*="frame"]
 			fill: $second !important
 			+ path
-				fill: $accent !important
+				fill: $tier !important
 		[id*="indicator"]
 			fill: $accent !important
-	&.active
+	&.related
 		[id*="frame"]
-			fill: $second !important
+			// fill: $second !important
 			+ path
 				fill: $dk-accent !important
 		[id*="indicator"]
 			fill: $dk-accent !important
-	&.related
+	&.active
 		[id*="frame"]
-			// fill: $second !important
+			fill: $second !important
 			+ path
 				fill: $tier !important
 		[id*="indicator"]
@@ -118,6 +118,29 @@ svg *
 // 	&:hover
 // 		opacity: 1
 
+[id*="yeux"]
+	animation-duration: 18s
+	animation-iteration-count: infinite
+	// animation-name: regarde
+	[id*="pharmacien"] &
+		animation-delay: 1s
+	[id*="etat_quebec"] &
+		animation-delay: 2s
+	[id*="etat_canada"] &
+		animation-delay: 3s
+	[id*="actionnaire_ext"] &
+		animation-delay: 4s
+	[id*="employeur"] &
+		animation-delay: 4.5s
+	[id*="assureur_prive"] &
+		animation-delay: 3.5s
+	[id*="serge"] &
+		animation-delay: 1.5s
+	[id*="suzanne"] &
+		animation-delay: 2.5s
+	[id*="ramq"] &
+		animation-delay: .5s
+		// transition: all .1s ease-in-out
 
 [id*="oeil_ferme"], 
 [id*="oeil_ouvert"]
@@ -125,23 +148,29 @@ svg *
 	animation-iteration-count: infinite
 	[id*="pharmacien"] &
 		animation-delay: 2s
-	[id*="etat-quebecois"] &
+	[id*="etat_quebec"] &
 		animation-delay: 1s
-	[id*="etat-canadien"] &
+	[id*="etat_canada"] &
 		animation-delay: 4s
-	[id*="actionnaire-exterieur"] &
+	[id*="actionnaire_ext"] &
 		animation-delay: 3s
 	[id*="employeur"] &
 		animation-delay: 3.5s
-	[id*="assureur"] &
+	[id*="assureur_prive"] &
 		animation-delay: 1.5s
+	[id*="serge"] &
+		animation-delay: 2.5s
+	[id*="suzanne"] &
+		animation-delay: 4.5s
+	[id*="ramq"] &
+		animation-delay: .5s
 
 [id*="oeil_ouvert"]
-	animation-name: clignement_ouvert 
+	// animation-name: clignement_ouvert 
 
 [id*="oeil_ferme"]
 	opacity: 0
-	animation-name: clignement_ferme
+	// animation-name: clignement_ferme
 
 @keyframes clignement_ouvert
 	0% 
@@ -200,20 +229,20 @@ svg *
 	100%
 		transform: rotate(0deg)
 	
-@keyframes regarde_gauche
+@keyframes regarde
 	38%
 		transform: translate(0em, 0em)
 	38.5%
-		transform: translate(-.48em, -.28em)
+		transform: translate(-.08em, -.04em)
 	49.5%
-		transform: translate(-.48em, -.28em)
+		transform: translate(-.08em, -.04em)
 	50%
 		transform: translate(0em)
 	88%
 		transform: translateX(0em)
 	88.5%
-		transform: translateX(.68em)
+		transform: translateX(.10em)
 	99.5%
-		transform: translateX(.68em)
+		transform: translateX(.10em)
 	100%
 		transform: translateX(0em)
