@@ -30,21 +30,84 @@ $(document).ready(function() {
 
 // });
 
+	// Événement click sur une transaction dans le graphe
 	$('[id*="trans-"]').on('click', function(){
-		$(this).addClass('active').siblings().removeClass('active');
-		related_acteur = $(this).attr('id').replace('-'+active_acteur,'').split('trans-')[1];
-		$('[id*="acteur-'+related_acteur+'"]').addClass('related').find('[id*="cartoon"]').attr('filter', '');
-		$('[id*="acteur-'+related_acteur+'"]').siblings().removeClass('related');
-		console.log(active_acteur,related_acteur);
+		var trans_elem = $(this);
+		var trans_elem_id = trans_elem.attr("id");
+		var trans_id = trans_elem_id.replace(/^trans-/, '');
+		var active_acteur = trans_id.split('-')[0];
+		var related_acteur = trans_id.split('-')[1];
+
+		// Active la transaction dans le graphe
+		trans_elem
+			.addClass('active')
+			.siblings()
+				.removeClass('active');
+
+		// Active l'acteur relatif
+		$('[id*="acteur-'+related_acteur+'"]')
+			.addClass('related')
+			.find('[id*="cartoon"]')
+				.attr('filter', '')
+				.end()
+			.siblings()
+				.removeClass('related');
+
+		// Active le panneau de détails de la transaction
+		$('[id*="trans_details-'+trans_id+'"]')
+			.addClass('active')
+			.siblings()
+				.removeClass('active');
+
+		// Active l'acteur émetteur dans les détails de transaction
+		$('[id*="emetteur-'+active_acteur+'"]')
+			.addClass('active')
+			.siblings()
+				.removeClass('active');
+
+		// Active l'acteur récepteur dans les détails de transaction
+		$('[id*="recepteur-'+related_acteur+'"]')
+			.addClass('active')
+			.siblings()
+				.removeClass('active');
+
 	});
 
+	// Événement click sur un acteur dans le graphe
 	$('[id*="acteur-"]').on('click', function(){
-		$('[id*="acteur-"]').removeClass('related');
-		$(this).addClass('active').find('[id*="cartoon"]').attr('filter', '');
-		$(this).siblings().removeClass('active').find('[id*="cartoon"]').not('[id*="frame"]').attr('filter', 'url("#greyscale")');
-		active_acteur = $(this).attr('id').split('acteur-')[1];
-		$('[id*="trans-"]').filter('.shown').removeClass('shown');
-		$('[id*="trans_group-"]').filter('[id*="'+active_acteur+'"]').addClass('active').find('[id*="trans-"]').addClass('shown');
+		var acteur_elem = $(this);
+		var acteur_id = acteur_elem.attr("id").replace(/^acteur-/, '');
+
+		// Désactive les acteurs relatifs
+		$('[id*="acteur-"].related').removeClass('related');
+
+		// Active l'acteur
+		acteur_elem
+			.addClass('active')
+			.find('[id*="cartoon"]')
+				.attr('filter', '')
+				.end()
+			.siblings()
+				.removeClass('active')
+				.find('[id*="cartoon"]')
+					.not('[id*="frame"]')
+						.attr('filter', 'url("#greyscale")');
+
+		// Désactive les transactions du graphe affichées
+		$('[id*="trans-"].shown').removeClass('shown');
+
+		// Active les transactions du groupe
+		$('[id*="trans_group-"]')
+			.filter('[id*="'+acteur_id+'"]')
+				.addClass('active')
+				.find('[id*="trans-"]')
+					.addClass('shown');
+
+		// Désactive les éléments actifs du panneau de détails
+		$('[id*="trans_details-'+trans_id+'"].active, [id*="emetteur-'+active_acteur+'"].active, [id*="recepteur-'+related_acteur+'"].active').removeClass("active");
+
+		// Active l'acteur émetteur et la description du panneau principal
+		$('[id*="emetteur-'+active_acteur+'"], [id*="acteur_description-'+acteur_id+'"]').addClass("active");
 	});
 
 });
