@@ -59,6 +59,18 @@ $(document).ready(function() {
 			.siblings()
 				.removeClass('active');
 
+		// Active l'acteur émetteur dans les détails de transaction
+		$('[id*="emetteur-'+active_acteur+'"]')
+			.addClass('active')
+			.siblings()
+				.removeClass('active');
+
+		// Active l'acteur récepteur dans les détails de transaction
+		$('[id*="recepteur-'+related_acteur+'"]')
+			.addClass('active')
+			.siblings()
+				.removeClass('active');
+
 	});
 
 	// Événement click sur un acteur dans le graphe
@@ -90,6 +102,12 @@ $(document).ready(function() {
 				.addClass('active')
 				.find('[id*="trans-"]')
 					.addClass('shown');
+
+		// Désactive les éléments actifs du panneau de détails
+		$('[id*="trans_details-'+trans_id+'"].active, [id*="emetteur-'+active_acteur+'"].active, [id*="recepteur-'+related_acteur+'"].active').removeClass("active");
+
+		// Active l'acteur émetteur et la description du panneau principal
+		$('[id*="emetteur-'+active_acteur+'"], [id*="acteur_description-'+acteur_id+'"]').addClass("active");
 	});
 
 });
