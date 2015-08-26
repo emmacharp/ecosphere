@@ -80,6 +80,13 @@ svg *
 [id*="acteur-"]
 	cursor: pointer
 	transform-origin: center
+	&:hover
+		[id*="frame"]
+			fill: $second !important
+			+ path
+				fill: $accent !important
+		[id*="indicator"]
+			fill: $accent !important
 	&.active
 		[id*="frame"]
 			fill: $second !important

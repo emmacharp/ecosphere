@@ -512,6 +512,12 @@ svg * {
 [id*="acteur-"] {
   cursor: pointer;
   transform-origin: center; }
+  [id*="acteur-"]:hover [id*="frame"] {
+    fill: #FFFC00 !important; }
+    [id*="acteur-"]:hover [id*="frame"] + path {
+      fill: #A668DF !important; }
+  [id*="acteur-"]:hover [id*="indicator"] {
+    fill: #A668DF !important; }
   [id*="acteur-"].active [id*="frame"] {
     fill: #FFFC00 !important; }
     [id*="acteur-"].active [id*="frame"] + path {

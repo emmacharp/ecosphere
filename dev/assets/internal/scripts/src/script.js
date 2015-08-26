@@ -33,16 +33,18 @@ $(document).ready(function() {
 	$('[id*="trans-"]').on('click', function(){
 		$(this).addClass('active').siblings().removeClass('active');
 		related_acteur = $(this).attr('id').replace('-'+active_acteur,'').split('trans-')[1];
-		$('[id*="acteur-'+related_acteur+'"]').addClass('related').siblings().removeClass('related');
+		$('[id*="acteur-'+related_acteur+'"]').addClass('related').find('[id*="cartoon"]').attr('filter', '');
+		$('[id*="acteur-'+related_acteur+'"]').siblings().removeClass('related');
 		console.log(active_acteur,related_acteur);
 	});
 
 	$('[id*="acteur-"]').on('click', function(){
 		$('[id*="acteur-"]').removeClass('related');
-		$(this).addClass('active').siblings().removeClass('active').find('[id*="cartoon"]').not('[id*="frame"]').attr('filter', 'url("#greyscale")');
+		$(this).addClass('active').find('[id*="cartoon"]').attr('filter', '');
+		$(this).siblings().removeClass('active').find('[id*="cartoon"]').not('[id*="frame"]').attr('filter', 'url("#greyscale")');
 		active_acteur = $(this).attr('id').split('acteur-')[1];
 		$('[id*="trans-"]').filter('.shown').removeClass('shown');
-		$('[id*="trans-"]').filter('[id*="'+active_acteur+'"]').addClass('shown');
+		$('[id*="trans_group-"]').filter('[id*="'+active_acteur+'"]').addClass('active').find('[id*="trans-"]').addClass('shown');
 	});
 
 });
