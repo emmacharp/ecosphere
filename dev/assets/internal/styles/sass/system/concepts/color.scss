@@ -1,0 +1,242 @@
+//-------------------------------------------------------------------------------/ /
+/* !COLOR SCHEME ---- */
+//------------------------------------------------------------------------------
+
+$fourth: #ffffff !default;
+
+
+// $nuances: (
+// 	dk : 4,
+// 	dkr : 10,
+// 	dkst : 18,
+// 	lt : 4,
+// 	ltr: 10,
+// 	ltst: 18
+// 	);
+// @each $holder in $color_holders {
+// 	$index: index($color_holders, $holder);
+// 	$dk-#{nth($color_holders, $index)}} : darken($#{nth($color_holders, $index)}, 6%);
+// }
+
+$palette_colors: (prime, second, tier, fourth);
+
+// @function nuances() {
+// 	@each holders in $colors {
+
+// 	}	
+// }
+
+	// @each $holder in map-get($colors, holders) {
+	// 	@function penis($nuance) {
+
+	// 	}
+	// }
+
+// --------------------------------------------------------
+// Peut être une façon efficace de donner beaucoup de latitude tout en
+// facilitant la création automatique de bases et de propriétés pertinentes (teinte, ton, etc..)
+// pour ensuite agir/créer en fonction de celles-ci (schemes, etc)
+// --------------------------------------------------------	
+// $color_palette: (
+// 	prime: (
+// 		value: $prime,
+// 		increments: (
+// 				dk: 6,
+// 				lt: 6
+// 		),
+// 	)
+// );
+
+// $palette_properties: ();
+// $palette_extensions: ();
+
+
+
+@mixin color_rule(
+		$type: anal, 
+		$base: $base-color, 
+		$liberty: 0){
+	
+		$prime: $base;
+	
+	// @if $base != $prime {
+	// 	$saved-prime: $prime;
+	// 	$prime: $base;
+	// }
+
+	@if $type == mono {
+		$second: dk($base);
+		$tier: dkr($base);	
+		$fourth: dkst($base);	
+		$accent: saturate($base, 40%);
+	}
+
+	@if $type == anal {
+		$second: adjust-hue($base, -20);
+		$tier: adjust-hue($base, -40);
+		$fourth: adjust-hue($base, 20);
+		$accent: adjust-hue($base, 40);
+	}
+	
+	@if $type == triad {
+		$second: adjust-hue($base, 120);
+		$tier: adjust-hue($base, -120);
+		$fourth: adjust-hue($base, 120);
+		$accent: adjust-hue($base, -120);
+	}
+
+	@if $type == tetra {
+		$second: adjust-hue($base, 34);
+		$tier: adjust-hue($base, 146);
+		$fourth: adjust-hue($base, -34);
+		$accent: adjust-hue($base, -146);
+	}
+	
+	@if $type == square {
+		$second: adjust-hue($base, -60);
+		$tier: adjust-hue($base, -120);
+		$fourth: adjust-hue($base, 120);
+		$accent: adjust-hue($base, 60);
+	}
+	
+	@if $type == split-comp {
+		$second: adjust-hue($base, 180);
+		$tier: adjust-hue($base, 150);
+		$fourth: adjust-hue($base, 210);
+		$accent: adjust-hue($base, 180);
+	}
+	
+	@if $type == comp {
+		$second: adjust-hue($base, 180);
+		$tier: adjust-hue($base, 180);
+		$fourth: adjust-hue($base, 180);
+		$accent: adjust-hue($base, 180);
+	}
+
+// possible types of rules
+// Monochromatic
+// Complementary
+// Split-Complementary
+// Double-Complementary
+// Analogous
+// Triad
+// tetradic
+// Square
+
+}
+
+@mixin color_invert(){
+			$placeholder: $prime;
+		$prime: $accent;
+		$accent: $fourth;
+		$fourth: $second;
+		$second: $tier;
+		$tier: $placeholder;
+}
+
+@mixin color_mood($type:colorful){
+	@if $type == colorful {
+		$prime: saturate($prime, 20%);
+		$second: saturate($second, 20%);
+		$tier: saturate($tier, 20%);
+		$fourth: saturate($fourth, 20%);
+		$accent: saturate($accent, 20%);
+	}
+@if $type == bright {
+	// $amount: 10%;
+	// @each $color in $palette_colors {
+	// 	$#{$color}: lighten(saturate($#{$color}, $amount), $amount);
+	// }
+		$prime: ltr(saturate($prime, 10%));
+		$second: ltr(saturate($second, 10%));
+		$tier: ltr(saturate($tier, 10%));
+		$fourth: ltr(saturate($fourth, 10%));
+		$accent: ltr(saturate($accent, 10%));
+	}
+
+	// possible types of moods
+	// colorful
+	// bright
+	// muted
+	// deep
+	// dark
+
+}
+
+@mixin color_dominance(
+$type:mono,
+$variant: all,
+$liberty: 0){
+	// dark prime color
+	@if luma($prime) < 33 {
+		$second: ltr($second);
+		$tier: ltst($tier);
+		$fourth: dkr($fourth);
+	}
+
+	// medium prime color
+	@if luma($prime) > 33 and luma($prime) < 66 {
+		@if strip-unit(saturation($prime)) > 50 {
+			$second: desaturate($second, 10%);
+			$tier: desaturate($tier, 20%);
+			$fourth: saturate($fourth, 20%);			
+		}
+		@if strip-unit(saturation($prime)) < 50 {
+			$second: saturate($second, 20%);
+			$tier: saturate($tier, 30%);
+			$fourth: desaturate($fourth, 20%);			
+		}
+	}
+	// bright prime color
+	@if luma($prime) > 66 {
+		// $second: ltr($second);
+		// $tier: ltst($tier);
+		// $fourth: dk($fourth);
+	}
+
+	// @if luma($prime) < luma($second){
+	// 	$second: darken($second, 10%);	
+	// }
+	// @if luma($prime) > luma($second){
+	// 	$second: lighten($second, 10%);	
+	// }
+	// @else if strip-unit(lightness($prime)) < strip-unit(lightness($second)){
+	// 	$second: lighten($second, 10%);	
+	// }
+	
+	// 	$tier: lighten(desaturate($tier, 10%), 20%);
+	// 	$fourth: lighten(desaturate($fourth, 10%), 20%);
+
+	// possible types
+	// tyrant
+	// soft
+	// mono
+	// duo
+	// oligo
+	// concur
+
+	// possible variants
+	// all
+	// saturation
+	// lightness
+	// luminance
+	// contrast
+}
+
+@mixin color_contrast($type:normal){
+
+}
+
+@mixin color_theme($type, $contrast) {
+
+// possible types of themes
+// Light on Dark
+// Dark on Light
+// Colorful
+// ...
+
+// elements of themes
+// text : h1, h2, h3 ,h4 ,h5 ,h6 ,h7, etc.
+// (see : selectors.scss)
+
+}

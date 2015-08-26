@@ -1,0 +1,60 @@
+// @warn "---- la zone de quarantaine est utilisée, laite.";
+
+// $colors : (
+// 	holders: (
+// 	 prime,
+// 	 second,
+// 	 tier,
+// 	 fourth,
+// 	 fifth,
+// 	 accent,
+// 	 text
+// 	),
+
+// 	nuances: (
+// 	dk : 4,
+// 	dkr : 10,
+// 	dkst : 18,
+// 	lt : 4,
+// 	ltr: 10,
+// 	ltst: 18
+// 	),
+// );
+
+// // faire des objets de paramétrage
+
+// $markets: (
+// 	monopolistic: (
+// 		prime: 80,
+// 		second: 5,
+// 		third: 5,
+// 		fourth: 5,
+// 		accent: 5,
+// 	),
+// );
+
+// // @warn map-keys(map-get($markets, monopolistic));
+
+// // Monter les palettes à partir d'une mixin qui reçoit les paramètres
+// // $index : éloignement de la couleur retournée à sa couleur dominante
+// // default: 0 -> la valeur 
+// @function market($color, $rule:monopolistic, $index:0){
+//  // déterminer le coefficient de domination à partir de sa différence
+//  // de la moyenne des luma et peut-être plus...
+// }
+
+// @function chroma($color, $rule:analog, $index:0){
+
+// }
+
+// @function contrast($color, $standard, $index:0){
+
+// }
+
+// @function mood($color, $rule:colorful, $index:0){
+
+// }
+
+// @function invert($color){
+
+// }

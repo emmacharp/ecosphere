@@ -1,0 +1,97 @@
+$screen: "only screen";
+$desktop: "only screen and (min-width:#{em-calc($mobile-screen)})";
+
+$mobile: "only screen and (max-width:#{em-calc($mobile-screen)})";
+$mobile-only: "only screen and (max-width:#{em-calc($mobile-screen)})";
+
+$small: "only screen and (min-width:#{em-calc($small-screen)})";
+$small-only: "only screen and (min-width:#{em-calc($small-screen)}) and (max-width:#{em-calc($medium-screen)})";
+
+$to-medium: "only screen and (max-width:#{em-calc($medium-screen)})";
+$medium: "only screen and (min-width:#{em-calc($medium-screen)})";
+$medium-only: "only screen and (min-width:#{em-calc($medium-screen)}) and (max-width:#{em-calc($large-screen)})";
+
+$to-large: "only screen and (max-width:#{em-calc($medium-screen)})";
+$large: "only screen and (min-width:#{em-calc($large-screen)})";
+$large-only: "only screen and (min-width:#{em-calc($large-screen)})";
+
+$letter: "only print and (min-width:8.5in)";
+
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+
+
+@mixin mobile-viewport {
+	$viewport-grid: $mb-grid !global;
+	$grid: $viewport-grid !global;
+	$gutterwidth: $mb-gutterwidth !global;
+	$viewport: $mobile !global;
+}
+
+@mixin small-viewport {
+	$viewport-grid: $sm-grid !global;
+	$grid: $viewport-grid !global;
+	$gutterwidth: $sm-gutterwidth !global;
+	$viewport: $small !global;
+}
+
+@mixin medium-viewport {
+	$viewport-grid: $md-grid !global;
+	$grid: $viewport-grid !global;
+	$gutterwidth: $md-gutterwidth !global;
+	$viewport: $medium !global;
+}
+
+
+@mixin large-viewport {
+	$viewport-grid: $lg-grid !global;
+	$grid: $viewport-grid !global;
+	$gutterwidth: $lg-gutterwidth !global;
+	$viewport: $large !global;
+}
+
+
+@mixin grid_context($viewport: $viewport){
+	@if $viewport == $screen
+	or $viewport == $mobile 
+	or $viewport == $mobile-only {
+		@include mobile-viewport;
+	}
+	@if $viewport == $small 
+	or $viewport == $small-only
+	or $viewport == $to-medium {
+		@include small-viewport;
+	}
+	@if $viewport == $medium
+	or $viewport == $medium-only
+	or $viewport == $to-large {
+		@include medium-viewport;
+	}
+	@if $viewport == $large
+	or $viewport == $large-only
+	or $viewport == $to-large {
+		@include large-viewport;
+	}
+}
+
+@mixin viewport($viewports...){	
+	@each $viewport in $viewports {
+		$viewport: unquote($viewport); // important sinon ça brise
+		@include grid_context($viewport: $viewport);
+		@if $deprec {
+			@if $viewport == $screen 
+				or $viewport == $small
+				or $viewport == $medium
+				or $viewport == $medium-only
+				or $viewport == $desktop {
+				@content;
+			}
+		}
+ 		@else {
+			@media #{$viewport} {
+				@content;
+			}
+		}
+	}
+}

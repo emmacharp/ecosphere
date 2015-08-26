@@ -1,0 +1,32 @@
+@mixin show-wireframes {	
+	 img {
+	 	width: 100%;
+	 	background: $prime;
+	 	outline: 1px solid darken($prime, 4%);
+	 	//outline: none;
+	 }
+
+	.o, .object {
+		background-color: fade-out($prime, .2);
+		outline: 1px solid darken($prime, 12%);
+		outline-offset: -2px;
+		transition: background-color .15s ease-in-out;
+		color: $type-alt;
+
+		&:hover {
+			background-color: fade-out($prime, .16);
+		}
+	}
+
+	.group {
+		background-color: fade-out($prime, .4);
+	}
+
+	.container {
+		background-color: fade-out($prime, .6);
+	}
+
+	.o, .object.prime {
+		background-color: $tier;
+	}	
+}

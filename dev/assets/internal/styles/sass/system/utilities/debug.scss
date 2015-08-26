@@ -1,0 +1,11 @@
+@mixin debug {
+	@if $show-debug == yes {
+		_grid: $grid;
+		_viewport-grid: $viewport-grid;
+		_columns: $columns;
+		_parent-grid: $parentcolumns;
+		_columnwidth: $columnwidth;
+		_gutterwidth: $gutterwidth;
+		
+	}
+}

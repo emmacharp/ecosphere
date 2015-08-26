@@ -1,0 +1,35 @@
+@mixin show-media {
+	body {
+		padding-top: rows(2);
+	}
+	body:before {
+		top: 0;
+		left: 0;
+		position: fixed;
+		width: 100%;
+		background-color: white;
+		text-align: center;
+		font-size: .75rem;
+		padding: rows(.5);
+		display: block;
+		z-index: 1100;
+		
+		@include viewport($mobile-only) {
+			content: 'mobile : #{$viewport}';
+			color: red;
+		}
+		@include viewport($small-only)  {
+			content: 'small : #{$viewport}';
+			color: purple;
+		}
+		@include viewport($medium-only)  {
+			content: 'medium : #{$viewport}';
+			color: green;
+		}
+		@include viewport($large-only)  {
+			content: 'large : #{$viewport}';
+			color: orange;
+		}
+
+	}
+}

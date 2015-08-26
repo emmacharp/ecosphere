@@ -1,0 +1,5 @@
+@mixin _heading-group {
+	#{$txt-headers} {
+		margin-bottom: 0;
+	}
+}

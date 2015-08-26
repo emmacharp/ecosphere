@@ -1,0 +1,74 @@
+//= GRID OVERLAY CREATION ==++
+//
+
+@mixin dev-grid_box($node: default) {
+	.object, 
+	.group, 
+	.element, 
+	.atom,
+	#{$str-all} {
+		z-index: 1001;
+		position: relative;
+	}
+	&:after {
+		@include pseudo;
+		//@include overlay(1000, $background-color);
+		z-index: 1000;
+		
+		pointer-events: none;
+
+		// @if $node == body {
+		// 	@include canvas;
+		// }
+		position: fixed;
+		width: $bodywidth;
+		height: 100%;
+		background-color: $background-color;
+		top: 0;
+		left: auto;
+		right: auto;
+		bottom: 0;
+		max-width: $maxwidth;
+	}
+}
+
+@mixin dev-grid_def(
+	$grid: $grid, 
+	$gutter-color: $gutter-color, 
+	$parentcolumns: $grid,
+	$background-color: transparent) {
+
+	// background-image: 
+	// -webkit-linear-gradient(to right, $background-color 0, $background-color (100% - gutters(1, $parentcolumns) * $grid), $gutter-color 0),
+	//  -webkit-linear-gradient(to bottom, $baseline-color .05em, transparent .05em);
+	// background-image: 
+	//  -moz-linear-gradient(to right, $background-color 0, $background-color (100% - gutters(1, $parentcolumns) * $grid), $gutter-color 0),
+	//  -moz-linear-gradient(to bottom, $baseline-color 1px, transparent 1px);
+	background-image: 
+	 linear-gradient(to right, $background-color 0, $background-color columns(1), $gutter-color 0),
+	 linear-gradient(to bottom, $baseline-color 1px, transparent 1px);
+	background-size: (columnwidth($parentcolumns) + gutters(1, $parentcolumns)) 100%, 100% rows(1);
+}
+
+@mixin dev-grid_viewports($grid: $grid) {
+	@include viewport(
+			$mobile-only, 
+			$small-only, 
+			$medium-only, 
+			$large-only) {
+		&:after {
+			@include dev-grid_def;
+		}
+	}	
+}
+
+
+@mixin show-grid(
+	$grid: $grid, 
+	$node: default, 
+	$gutter-color: $gutter-color, 
+	$background-color: transparent) {
+	
+	@include dev-grid_box($node);
+	@include dev-grid_viewports($grid);
+}

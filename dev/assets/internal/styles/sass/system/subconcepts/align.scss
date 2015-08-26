@@ -1,0 +1,29 @@
+@mixin align($alignment) { 
+	@if ($alignment == bottom-right) {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	@if ($alignment == bottom-left) {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	@if ($alignment == top-right) {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	@if ($alignment == right) {
+		position: absolute;
+		right: 0;
+	}
+
+	@if ($alignment == bottom) {
+		position: absolute;
+		bottom: 0;
+	}
+}

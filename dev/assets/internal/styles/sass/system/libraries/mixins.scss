@@ -1,0 +1,298 @@
+@charset "UTF-8"; 
+
+/* -----------------------------------
+
+= MIXINS ==============================
+-------------------------------------- */
+
+/*
+  # Border Radius & Variations
+  # Box Shadow & Variations
+  # Text Shadow
+  # SVG Shadows
+  # State Transitions
+  # Gradient & Variations
+  # Base64 Gradients
+  # Color Transparency
+  # Object Opacity
+  # Transforms
+  # Box Sizing
+  # User Select
+  # Background Clip
+  # Clearfix
+  # Force Justify
+  # Triangles
+  
+*/
+
+//-------------------------------------/ /
+/* !BORDER RADIUS & VARIATIONS ---- */
+//---------------------------------
+
+@mixin border_radius($radius:10px) {
+    -webkit-border-radius:$radius;
+    -moz-border-radius:$radius;
+    border-radius:$radius;
+}
+ 
+@mixin border_radius_right($radius:10px) {
+    -webkit-border-top-right-radius: $radius;
+    -webkit-border-bottom-right-radius: $radius;
+    -moz-border-radius-topright: $radius;
+    -moz-border-radius-bottomright: $radius;
+    border-top-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+ 
+@mixin border_radius_left($radius:10px) {
+    -webkit-border-top-left-radius: $radius;
+    -webkit-border-bottom-left-radius: $radius;
+    -moz-border-radius-topleft: $radius;
+    -moz-border-radius-bottomleft: $radius;
+    border-top-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+ 
+@mixin border_radius_bottom($radius:10px) {
+    -webkit-border-bottom-left-radius: $radius;
+    -webkit-border-bottom-right-radius: $radius;
+    -moz-border-radius-bottomleft: $radius;
+    -moz-border-radius-bottomright: $radius;
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+ 
+@mixin border_radius_top($radius:10px) {
+    -webkit-border-top-left-radius: $radius;
+    -webkit-border-top-right-radius: $radius;
+    -moz-border-radius-topleft: $radius;
+    -moz-border-radius-topright: $radius;
+    border-top-left-radius: $radius;
+    border-top-right-radius: $radius;
+}
+ 
+//-------------------------------------/ /
+/* !BOX SHADOW & VARIATIONS---- */
+//---------------------------------
+
+@mixin box_shadow($shadow_x:3px, $shadow_y:3px, $shadow_rad:3px, $shadow_in:3px, $shadow_color:#888) {
+    box-shadow:$shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+    -webkit-box-shadow:$shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+    -moz-box-shadow:$shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+}
+ 
+@mixin inset_box_shadow($shadow_x:3px, $shadow_y:3px, $shadow_rad:3px, $shadow_in:3px, $shadow_color:#888) {
+    box-shadow:inset $shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+    -webkit-box-shadow:inset $shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+    -moz-box-shadow:inset $shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+}
+ 
+//-------------------------------------/ /
+/* !TEXT SHADOW---- */
+//---------------------------------
+
+@mixin text_shadow($shadow_x:3px, $shadow_y:3px, $shadow_rad:3px, $shadow_color:#fff) {
+    text-shadow:$shadow_x $shadow_y $shadow_rad $shadow_color;
+}
+
+//-------------------------------------/ /
+/* !SVG SHADOWS---- */
+//---------------------------------
+@mixin filter-shadow($x, $y, $size, $color) {
+  // Firefox 10+
+  .svgfilters & {
+    $svgSize: $size/2;
+    filter: url('data:image/svg+xml;utf8,<svg%20height="100"%20xmlns="http://www@mixin w3.org/2000/svg"><filter%20id="drop-shadow"><feGaussianBlur%20in="SourceAlpha"%20stdDeviation="#{$svgSize}"/><feOffset%20dx="#{$x}"%20dy="#{$y}"%20result="offsetblur"/><feFlood%20flood-color="#{$color}"/><feComposite%20in2="offsetblur"%20operator="in"/><feMerge><feMergeNode/><feMergeNode%20in="SourceGraphic"/></feMerge></filter></svg>#drop-shadow');
+  }
+ 
+  // Chrome 19+, Safari 6+
+  .cssfilters & {
+    -webkit-filter: drop-shadow($arguments);
+            filter: drop-shadow($arguments);
+  }
+ 
+  // Everything else that supports conventional box-shadows
+  .no-cssfilters.no-svgfilters & {
+    -webkit-box-shadow: $arguments;
+       -moz-box-shadow: $arguments;
+            box-shadow: $arguments;
+  }
+}
+ 
+//-------------------------------------/ /
+/* !STATE TRANSITIONS---- */
+//---------------------------------
+
+
+@mixin transition($selector:all, $duration:.2s, $animation:ease-in-out, $delay:0s) {
+    -webkit-transition:$selector $duration $animation $delay;
+    -moz-transition:$selector $duration $animation $delay;
+    -o-transition:$selector $duration $animation $delay;
+    transition:$selector $duration $animation $delay;
+}
+ 
+//-------------------------------------/ /
+/* !GRADIENT & VARIATIONS---- */
+//---------------------------------
+
+//============================================================
+//
+// linear-gradient
+//
+// $param dir                 :  top, left, 90deg
+// $param start-color         :  #000, rgba(255,255,255,0@mixin 5)
+// $param end-color           :  #000, rgba(255,255,255,0@mixin 5)
+//
+// NOTE: The direction for the IE gradient is automagically 
+// worked out for you based either on the direction or the 
+// angle that you pass in. Obviously it will only be a 
+// horizontal or vertical gradient, but it's still awesome.
+//
+// ALSO: Support for rgba is covered in IE too. Values are 
+// converted to aRGB.
+//
+// $example .linear_gradient(50deg,  #eee, #aaa); (IE auto included)
+//
+// OR
+//
+// $example @mixin linear_gradient-multi(~'top, #eee 0%, #aaa 50%, #eee 100%');
+//          @mixin linear_gradient-ie(top, #eee, #aaa);
+//
+//
+// $see http://dev@mixin w3.org/csswg/css3-images/#linear-gradients
+//
+//============================================================
+
+
+//-------------------------------------/ /
+/* !Base64 GRADIENTS---- */
+//---------------------------------
+
+
+
+//-------------------------------------/ /
+/* !COLOR TRANSPARENCY---- */
+//---------------------------------
+
+
+//-------------------------------------/ /
+/* !OBJECT OPACITY---- */
+//---------------------------------
+
+@mixin opacity($op:100){
+    filter:alpha(opacity=$op);
+    -moz-opacity:$op/100;
+    -khtml-opacity:$op/100;
+    opacity:$op/100;} 
+
+
+//-------------------------------------/ /
+/* !TRANSFORMS---- */
+//---------------------------------
+
+@mixin transform( $arguments... ) {
+  -webkit-transform: $arguments;
+  -moz-transform: $arguments;
+  -o-transform: $arguments;
+  -ms-transform: $arguments;
+  transform: $arguments;
+}
+
+@mixin rotate($deg:5deg){
+   @include transform(rotate($deg));
+}
+
+@mixin scale($ratio:1.5){
+  @include transform(scale($ratio));
+}
+
+@mixin translate($x:0, $y:0) {
+  @include transform(translate($x, $y));
+}
+
+//-------------------------------------/ /
+/* !BOX SIZING---- */
+//---------------------------------
+
+@mixin box_sizing($sizing: border-box) {
+  -ms-box-sizing: $sizing;
+  -moz-box-sizing: $sizing;
+  -webkit-box-sizing: $sizing;
+  box-sizing: $sizing;
+}
+
+//-------------------------------------/ /
+/* !USER SELECT---- */
+//---------------------------------
+
+@mixin user_select($argument: none) {
+  -webkit-user-select: $argument;
+  -moz-user-select: $argument;
+  -ms-user-select: $argument;
+  user-select: $argument;
+}
+
+//-------------------------------------/ /
+/* !BACKGROUND CLIP---- */
+//---------------------------------
+
+@mixin background_clip($argument: padding-box) {
+  -moz-background-clip: $argument;
+  -webkit-background-clip: $argument;
+  background-clip: $argument;
+}
+
+//-------------------------------------/ /
+/* !CLEARFIX---- */
+//---------------------------------
+
+@mixin clearfix() {
+  &:after {
+    content: "";
+    display: table;
+    clear: both; }  
+}
+
+//-------------------------------------/ /
+/* !FORCE JUSTIFY---- */
+//---------------------------------
+
+@mixin force_justify() {
+  content: "";
+  display: inline-block;
+  width: 100%;  
+}
+
+//-------------------------------------/ /
+/* !TRIANGLES---- */
+//---------------------------------
+@mixin triangle-base() {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+}
+@mixin triangle($direction, $size, $color)  {
+    @include triangle-base();
+
+    @if $direction == up {
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+    }
+    @if $direction == down {
+      border-left: $size solid transparent;
+      border-right: $size solid transparent;
+      border-top: $size solid $color;
+    }
+    @if $direction == left {
+      border-top: $size solid transparent;
+      border-bottom: $size solid transparent;
+      border-right: $size solid $color;
+    }
+    @if $direction == right {
+      border-top: $size solid transparent;
+      border-bottom: $size solid transparent;
+      border-left: $size solid $color;
+    }
+}

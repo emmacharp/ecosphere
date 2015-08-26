@@ -1,0 +1,17 @@
+[X] Regarder le problème des grilles qui ne donnent pas le nombre exact de colonnes... Il semble avoir un probleme avec le gutterwidth dans soit la grille dans le width ou dans le grid...
+
+[] Gérer plus efficacement les media-queries
+
+[] Générateur de palette
+
+[] Générateur d'échelle typographique
+
+[] Rendre la fonction `columns()` consciente de son parent
+
+[] Faire une fonction du genre min/max width qui va gérer les _media-queries_
+
+[] Faire les subconcepts au fur et à mesure.
+
+[] Faire que tout le texte dans les Wireframes deviennent des bandes grises...
+
+[] Rendre la grille en Viewport Units

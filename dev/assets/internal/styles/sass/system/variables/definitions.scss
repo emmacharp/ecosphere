@@ -1,0 +1,18 @@
+$liberty: 0;
+$viewport-grid: $md-grid !default;
+
+$viewport-gutterwidth: $md-gutterwidth !default;
+$columns: $viewport-grid !default;
+
+$grid: $viewport-grid !default;
+$gutterwidth: $viewport-gutterwidth !default;
+$parentpadding: 0 !default;
+$gutter: 0 !default;
+$columnwidth: 0 !default;
+
+$viewport: 2 !default;
+
+
+$parentcolumns: $viewport-grid !default;
+
+$background-color: transparent !default;

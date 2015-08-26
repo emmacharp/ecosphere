@@ -1,0 +1,163 @@
+
+/**********************************************************
+	STYLING DEFAULTS
+**********************************************************/
+
+/*
+	# Base font size
+	# Styling base to be inherited
+	# Text elements
+	# List bulleting
+	# Links
+	# <Sup> elements
+	# Navigation links
+	# Images
+	
+*/
+
+//-------------------------------------/ /
+/* !TEXT SELECTION  ---- */
+//---------------------------------
+::selection { 
+		background: #000; 
+		color: #fff; 
+		text-shadow: none; }
+
+
+//-------------------------------------/ /
+/* !BASE FONT-SIZE ---- */
+//---------------------------------
+	
+	html {
+		font-size: $basefont;
+		// height: 100%;
+	@include responsive-type($responsive-type-ratio);
+}
+
+
+//-------------------------------------/ /
+/* !STYLING BASE TO BE INHERITED ---- */
+//---------------------------------  
+	body {
+		font-family: $current;
+		color: $type;
+		margin: 0;
+		line-height: rows(1);
+		min-height: 100%;
+	 @include canvas($alignment);
+	}
+
+//-------------------------------------/ /
+/* !TEXT ELEMENTS ---- */
+//---------------------------------
+	#{$txt-all} { 
+		// faire une mixin .inherit(); ??
+				font-size: inherit;
+		  color: inherit;
+		  font-weight: inherit;
+		  line-height: inherit;
+		  margin: 0;
+		  margin-bottom: rows(1);
+		  
+		  &:last-child { margin-bottom: 0; } 
+	}
+
+	#{$txt-all} {
+		&:not([class]) {
+			//base line width maximum for best lisibility 
+		  //max-width: 40em;
+		}
+	}
+
+
+	button {
+		text-align: center;
+		background-color: inherit;
+		border: inherit;
+		padding: 0;
+	}
+	  
+
+//-------------------------------------/ /
+/* !LIST BULLETING ---- */
+//---------------------------------
+	ul {
+		padding-left: 0;
+		// padding-left: $row * .5;
+		list-style: none; }
+	
+	li {
+		position: relative; }
+	 
+	// li:before {
+	// 	content: "";
+	// 	position: absolute;
+	// 	left: 0;
+	// 	margin-left: -1em; }
+	
+//-------------------------------------/ /
+/* !ICON in <i> tag ---- */
+//---------------------------------
+	i.icon {
+		font-style: normal;
+	}
+
+//-------------------------------------/ /
+/* !LINKS ---- */
+//---------------------------------
+	a, 
+	a:hover, 
+	a:visited { 
+		color: inherit; 
+		//line-height: inherit; 
+	}
+	
+//-------------------------------------/ /
+/* !SUP ELEMENTS ---- */
+//---------------------------------
+	sup { 
+		vertical-align: super;
+		font-size: .48375em; 
+		line-height: rows(.75); }
+	
+//-------------------------------------/ /
+/* !NAVIGATION LINKS ---- */
+//---------------------------------
+	nav	a { 
+		text-decoration: none; 
+		display: inline-block; }
+	
+//-------------------------------------/ /
+/* !IMAGES ---- */
+//---------------------------------
+	img { 
+		user-select: none;
+		max-width: 100%; }
+
+
+//-------------------------------------/ /
+/* !STRUCTURAL ELEMENTS ---- */
+//---------------------------------	
+	.object, .element {
+		@media #{$mobile} {
+			position: relative;
+		}
+		@media #{$small} { 
+			@include _box;
+		}
+		box-sizing: border-box;
+		line-height: rows(1);
+	}
+
+	.container {
+		@include _container;
+	}
+
+	.group {
+		width: 100%;
+	}
+
+// .group.text, 
+// .element .group {
+// 	font-size: 1rem;
+// }

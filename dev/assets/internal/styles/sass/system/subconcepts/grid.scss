@@ -1,0 +1,53 @@
+// À VÉRIFIER
+// --------------------------------------------------------
+
+
+// il pourrait y avoir un problème de calcul dans la mixin width à cause du paramètre $columns dont la valeur est $grid/columns... Cela pourrait fausser le calcul de la largeur d'une colonne faisant ainsi que les objets à l'intérieur de cette nouvelle grille ne sont pas alignés sur la grille maîtresse lorsque le parent n'est pas de largeur complète.
+
+
+
+@mixin grid(
+	$columns: $columns, 
+	$parentcolumns: $grid,
+	$gutterwidth: $gutterwidth, 
+	$box-sizing: default, 
+	$viewport-grid: $viewport-grid) {
+	
+	@include debug;	
+
+	font-size: 0;	
+
+	& > * {
+		&:not(.container) { 
+			font-size: 1rem; 
+			@include _box;
+			@content;
+		}
+	}
+
+	@if $box-sizing == default {
+		& > * {
+			&:not(.container) { 
+
+				width: columns($parentcolumns/$columns);
+				
+				margin-right: gutters(1);
+			}
+			
+			&:nth-child(#{$columns}n), 
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	@if ($box-sizing == border-box) {
+		& > * {
+			&:not(.container) { 
+				box-sizing: border-box;
+
+				width: columns($grid / $columns, $grid, 0);
+			}
+		}
+	}
+}

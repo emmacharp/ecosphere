@@ -1,0 +1,10 @@
+@mixin canvas($pos: $alignment) {
+	min-width: $minwidth;
+	max-width: $maxwidth;
+	width: $bodywidth;
+	min-height: 100%;
+
+	@if $pos == center {
+		@include center(h);	
+	}
+}

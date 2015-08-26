@@ -1,0 +1,5 @@
+@mixin block-text($color: $type, $fade-out: .8) {
+	display: inline;
+	background-color: fade-out($color, $fade-out);
+	color: transparent;
+}

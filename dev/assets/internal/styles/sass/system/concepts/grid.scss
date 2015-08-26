@@ -1,0 +1,50 @@
+	// @function columnwidth($parentcolumns: $viewport-grid, $gutterwidth: $gutterwidth, $viewport: $viewport) {
+	// 	@if $gutter-style == fixed 
+	// 		{ @return 100% / $parentcolumns; } 
+	// 	@else 
+	// 		{ @return ((100% - $parentpadding - ($parentcolumns - 1) * gutters(1,$parentcolumns, $gutterwidth)) / $parentcolumns); }
+	// }
+
+	// @function gutters($gutter_count: 1, $parentcolumns: $viewport-grid, $gutterwidth: $gutterwidth, $viewport: $viewport) {
+	// 	@if $gutter-style == fixed 
+	// 		{ @return $gutter_count * $gutterwidth * 2rem; }
+	// 	@else
+	// 		{ @return $gutter_count * ($gutterwidth * ($viewport-grid / $parentcolumns)) * 2%; }
+	// }
+
+	// @function columns($column_count: $viewport-grid, $parentcolumns: $viewport-grid, $gutterwidth: $gutterwidth, $viewport: $viewport) {
+	// 	@if $gutter-style == fixed 
+	// 		{ @return columnwidth($parentcolumns, $gutterwidth) * $column_count; }
+	// 	@else if ie7 == yes
+	// 		{ @return columnwidth($parentcolumns, $gutterwidth) * $column_count - .2; }
+	// 	@else
+	// 		{ @return (columnwidth($parentcolumns, $gutterwidth) * $column_count + gutters(1,$parentcolumns, $gutterwidth) * ($column_count - 1)); }
+	// }
+
+
+	@function columnwidth($parentcolumns: $viewport-grid, $gutterwidth: $gutterwidth, $viewport: $viewport) {
+		@if $gutter-style == fixed 
+			{ @return 100vw / $parentcolumns; } 
+		@else 
+			{ @return ((100vw - $parentpadding - ($parentcolumns - 1) * gutters(1,$parentcolumns, $gutterwidth)) / $parentcolumns); }
+	}
+
+	@function gutters($gutter_count: 1, $parentcolumns: $viewport-grid, $gutterwidth: $gutterwidth, $viewport: $viewport) {
+		@if $gutter-style == fixed 
+			{ @return $gutter_count * $gutterwidth * 2rem; }
+		@else
+			{ @return $gutter_count * ($gutterwidth * ($viewport-grid / $parentcolumns)) * 2vw; }
+	}
+
+	@function columns($column_count: $viewport-grid, $parentcolumns: $viewport-grid, $gutterwidth: $gutterwidth, $viewport: $viewport) {
+		@if $gutter-style == fixed 
+			{ @return columnwidth($parentcolumns, $gutterwidth) * $column_count; }
+		@else if ie7 == yes
+			{ @return columnwidth($parentcolumns, $gutterwidth) * $column_count - .2; }
+		@else
+			{ @return (columnwidth($parentcolumns, $gutterwidth) * $column_count + gutters(1,$parentcolumns, $gutterwidth) * ($column_count - 1)); }
+	}
+
+	@function rows($row_count: 1, $baseline: $baseline) {
+		@return $row_count * $baseline * 1rem;
+	}

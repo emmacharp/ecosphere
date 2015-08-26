@@ -1,0 +1,626 @@
+/* !-- project-wide settings  */
+/* !CENTRAL SYSTEM ---- */
+/* -----------------------------------
+
+= MIXINS ==============================
+-------------------------------------- */
+/*
+  # Border Radius & Variations
+  # Box Shadow & Variations
+  # Text Shadow
+  # SVG Shadows
+  # State Transitions
+  # Gradient & Variations
+  # Base64 Gradients
+  # Color Transparency
+  # Object Opacity
+  # Transforms
+  # Box Sizing
+  # User Select
+  # Background Clip
+  # Clearfix
+  # Force Justify
+  # Triangles
+  
+*/
+/* !BORDER RADIUS & VARIATIONS ---- */
+/* !BOX SHADOW & VARIATIONS---- */
+/* !TEXT SHADOW---- */
+/* !SVG SHADOWS---- */
+/* !STATE TRANSITIONS---- */
+/* !GRADIENT & VARIATIONS---- */
+/* !Base64 GRADIENTS---- */
+/* !COLOR TRANSPARENCY---- */
+/* !OBJECT OPACITY---- */
+/* !TRANSFORMS---- */
+/* !BOX SIZING---- */
+/* !USER SELECT---- */
+/* !BACKGROUND CLIP---- */
+/* !CLEARFIX---- */
+/* !FORCE JUSTIFY---- */
+/* !TRIANGLES---- */
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+audio:not([controls]) {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+a {
+  color: #00e; }
+
+a:visited {
+  color: #551a8b; }
+
+a:hover {
+  color: #06e; }
+
+a:focus {
+  outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active {
+  outline: 0; }
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 0; }
+
+dfn {
+  font-style: italic; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+small {
+  font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0; }
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e 
+ */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle; }
+
+/*
+ * Correct overflow not hidden in IE9 
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+figure {
+  margin: 0; }
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+form {
+  margin: 0; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label {
+  cursor: pointer; }
+
+/* 
+ * 1. Correct color not inheriting in IE6/7/8/9 
+ * 2. Correct alignment displayed oddly in IE6/7 
+ */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0; }
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+button, input {
+  line-height: normal;
+  *overflow: visible; }
+
+/*
+ * Reintroduce inner spacing in 'table' to avoid overlap and whitespace issues in IE6/7
+ */
+table button, table input {
+  *overflow: auto; }
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button; }
+
+/*
+ * Consistent box sizing and appearance
+ */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* 
+ * Remove inner padding and border in FF3/4: h5bp.com/l 
+ */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* 
+ * 1. Remove default vertical scrollbar in IE6/7/8/9 
+ * 2. Allow only vertical resizing
+ */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical; }
+
+/* Colors for form validity */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd; }
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td {
+  vertical-align: top; }
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+/* @media print { */
+/* * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } */
+/* Black prints faster: h5bp.com/s */
+/*
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+*/
+/* Don't show links for images, or javascript/internal links */
+/*
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  $page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+*/
+/* } */
+/*
+$str-primary: 
+$str-secondary:
+$str-tertiary:
+$str-quaternary:
+*/
+/* !COLOR SCHEME ---- */
+/* !PROJECT RULES & DECLARATIONS ---- */
+/* !-- Design rules  */
+/**********************************************************
+	STYLING DEFAULTS
+**********************************************************/
+/*
+	# Base font size
+	# Styling base to be inherited
+	# Text elements
+	# List bulleting
+	# Links
+	# <Sup> elements
+	# Navigation links
+	# Images
+	
+*/
+/* !TEXT SELECTION  ---- */
+::selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none; }
+
+/* !BASE FONT-SIZE ---- */
+html {
+  font-size: 18px; }
+  @media only screen and (min-width: 22.2222em) {
+    html {
+      font-size: 19px; } }
+  @media only screen and (min-width: 44.4444em) {
+    html {
+      font-size: 20px; } }
+  @media only screen and (min-width: 66.6667em) {
+    html {
+      font-size: 22px; } }
+
+/* !STYLING BASE TO BE INHERITED ---- */
+body {
+  font-family: "Myriad Pro", "Arial", "sans-serif";
+  color: #95818C;
+  margin: 0;
+  line-height: 1.375rem;
+  min-height: 100%;
+  min-width: none;
+  max-width: none;
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto; }
+
+/* !TEXT ELEMENTS ---- */
+p, ul, ol, dl, table, h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  margin-bottom: 1.375rem; }
+  p:last-child, ul:last-child, ol:last-child, dl:last-child, table:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
+    margin-bottom: 0; }
+
+button {
+  text-align: center;
+  background-color: inherit;
+  border: inherit;
+  padding: 0; }
+
+/* !LIST BULLETING ---- */
+ul {
+  padding-left: 0;
+  list-style: none; }
+
+li {
+  position: relative; }
+
+/* !ICON in <i> tag ---- */
+i.icon {
+  font-style: normal; }
+
+/* !LINKS ---- */
+a,
+a:hover,
+a:visited {
+  color: inherit; }
+
+/* !SUP ELEMENTS ---- */
+sup {
+  vertical-align: super;
+  font-size: .48375em;
+  line-height: 1.0312rem; }
+
+/* !NAVIGATION LINKS ---- */
+nav a {
+  text-decoration: none;
+  display: inline-block; }
+
+/* !IMAGES ---- */
+img {
+  user-select: none;
+  max-width: 100%; }
+
+/* !STRUCTURAL ELEMENTS ---- */
+.object, .element {
+  box-sizing: border-box;
+  line-height: 1.375rem; }
+  @media only screen and (max-width: 22.2222em) {
+    .object, .element {
+      position: relative; } }
+  @media only screen and (min-width: 22.2222em) {
+    .object, .element {
+      position: relative;
+      width: auto;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box; } }
+
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 0; }
+  .container > *:not(.container) {
+    font-size: 1rem; }
+
+.group {
+  width: 100%; }
+
+/* -----------------------------------
+= BEHAVIOR-TYPE STYLES ================
+-------------------------------------- */
+/* !-- Object selectors  */
+/* !-- Quarantined Rulesets  */
+body {
+  background-color: #f4f4f4; }
+
+svg {
+  overflow: visible; }
+
+#object-econocircuit {
+  transition: all 5s; }
+
+svg * {
+  transition: all 0.2s ease-in-out;
+  opacity: 1; }
+
+#montant-transfert {
+  cursor: pointer; }
+  #montant-transfert #definition-transfert {
+    transform: translateY(10%);
+    opacity: 0;
+    transition: all 0.1s ease-in-out; }
+  #montant-transfert:hover #box-transfert {
+    transform: scale(1.1, 1.1); }
+  #montant-transfert:hover #definition-transfert {
+    transform: translateY(0%);
+    opacity: 1; }
+
+[id*="cartoon-face"],
+[id*="cartoon-corps"],
+#montant-transfert,
+#box-transfert {
+  transform-origin: center center; }
+
+[id*="trans-"] {
+  cursor: pointer;
+  transform-origin: center;
+  opacity: 0; }
+  [id*="trans-"]:hover {
+    transform: scale(1.2); }
+    [id*="trans-"]:hover path {
+      fill: #A668DF !important; }
+  [id*="trans-"].active {
+    transform: scale(1.3); }
+    [id*="trans-"].active path {
+      fill: #8500ff !important; }
+  [id*="trans-"].shown {
+    opacity: 1; }
+
+[id*="acteur-"] {
+  cursor: pointer;
+  transform-origin: center; }
+  [id*="acteur-"].active [id*="frame"] {
+    fill: #FFFC00 !important; }
+    [id*="acteur-"].active [id*="frame"] + path {
+      fill: #8500ff !important; }
+  [id*="acteur-"].active [id*="indicator"] {
+    fill: #8500ff !important; }
+  [id*="acteur-"].related [id*="frame"] + path {
+    fill: #EBFFCE !important; }
+  [id*="acteur-"].related [id*="indicator"] {
+    fill: #EBFFCE !important; }
+
+[id*="oeil_ferme"],
+[id*="oeil_ouvert"] {
+  animation-duration: 6s;
+  animation-iteration-count: infinite; }
+  [id*="pharmacien"] [id*="oeil_ferme"],
+  [id*="pharmacien"] [id*="oeil_ouvert"] {
+    animation-delay: 2s; }
+  [id*="etat-quebecois"] [id*="oeil_ferme"],
+  [id*="etat-quebecois"] [id*="oeil_ouvert"] {
+    animation-delay: 1s; }
+  [id*="etat-canadien"] [id*="oeil_ferme"],
+  [id*="etat-canadien"] [id*="oeil_ouvert"] {
+    animation-delay: 4s; }
+  [id*="actionnaire-exterieur"] [id*="oeil_ferme"],
+  [id*="actionnaire-exterieur"] [id*="oeil_ouvert"] {
+    animation-delay: 3s; }
+  [id*="employeur"] [id*="oeil_ferme"],
+  [id*="employeur"] [id*="oeil_ouvert"] {
+    animation-delay: 3.5s; }
+  [id*="assureur"] [id*="oeil_ferme"],
+  [id*="assureur"] [id*="oeil_ouvert"] {
+    animation-delay: 1.5s; }
+
+[id*="oeil_ouvert"] {
+  animation-name: clignement_ouvert; }
+
+[id*="oeil_ferme"] {
+  opacity: 0;
+  animation-name: clignement_ferme; }
+
+@keyframes clignement_ouvert {
+  0% {
+    opacity: 1; }
+  2% {
+    opacity: 1; }
+  2.2% {
+    opacity: 0; }
+  7.8% {
+    opacity: 0; }
+  8% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes clignement_ferme {
+  0% {
+    opacity: 0; }
+  2% {
+    opacity: 0; }
+  2.2% {
+    opacity: 1; }
+  7.8% {
+    opacity: 1; }
+  8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes hausse_sourcils {
+  29% {
+    transform: translateY(0em); }
+  30% {
+    transform: translateY(-0.62em); }
+  47% {
+    transform: translateY(-0.62em); }
+  48% {
+    transform: translateY(0em); }
+  100% {
+    transform: translateY(0em); } }
+
+@keyframes moustache {
+  94% {
+    transform: rotate(0deg); }
+  96% {
+    transform: rotate(3deg); }
+  98% {
+    transform: rotate(-3deg); }
+  100% {
+    transform: rotate(0deg); } }
+
+@keyframes regarde_gauche {
+  38% {
+    transform: translate(0em, 0em); }
+  38.5% {
+    transform: translate(-0.48em, -0.28em); }
+  49.5% {
+    transform: translate(-0.48em, -0.28em); }
+  50% {
+    transform: translate(0em); }
+  88% {
+    transform: translateX(0em); }
+  88.5% {
+    transform: translateX(0.68em); }
+  99.5% {
+    transform: translateX(0.68em); }
+  100% {
+    transform: translateX(0em); } }
+
+/* !DEVELOPMENT UTILITIES ---- */
+
+/*# sourceMappingURL=main.css.map */

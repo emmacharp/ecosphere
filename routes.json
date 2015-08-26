@@ -1,0 +1,6 @@
+{
+	"styles": "dev/assets/internal/styles",
+	"scripts": "dev/assets/internal/scripts",
+	"images": "dev/assets/external/img",
+	"icons": "dev/assets/external/icons"
+}

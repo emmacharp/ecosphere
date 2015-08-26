@@ -1,0 +1,70 @@
+@mixin show-identifiers {
+
+ html	*[class]:before {
+		content: attr(class);
+		padding: rows(.125) rows(.25);
+		background-color: gray;
+		color: white;
+		line-height: rows(.5);
+		font-weight: 600;
+		font-family: helvetica, arial, sans-serif;
+		display: block;
+		position: relative;
+		left: auto;
+		margin-bottom: rows(.25);
+		text-transform: uppercase;
+		letter-spacing: .025em;
+		z-index: 1050;
+		font-size: .5rem;
+	}
+	
+
+ html .container:before { 
+ 	background-color: red;
+ }
+ html .group:before { 
+ 	background-color: fuchsia;
+ }
+ html .object:before { 
+ 	background-color: purple;
+ }
+ html .element:before { 
+ 	background-color: teal;
+ }
+ html .atom:before { 
+ 	background-color: green;
+ }
+
+ html *[class] {
+ 	outline: 1px dashed gray;
+ }
+
+ html .container { 
+ 	outline-color: red; 
+ }
+ html .group { 
+ 	outline-color: fuchsia; 
+ }
+ html .object { 
+ 	outline-color: purple; 
+ }
+ html .element { 
+ 	outline-color: teal; 
+ }
+ html .atom { 
+ 	outline-color: green; 
+ }
+
+ html *:not(body)[class] *[class]:before {	 
+ 	padding-left: rows(.25);
+ }
+ html *:not(body)[class] *[class] *[class]:before {
+ 	padding-left: rows(.5);
+ }
+ html *:not(body)[class] *[class] *[class] *[class]:before {
+ 	padding-left: rows(.75);
+ }
+ html *:not(body)[class] *[class] *[class] *[class] *[class]:before {
+ 	padding-left: rows(1);
+ }
+}

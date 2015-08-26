@@ -1,0 +1,21 @@
+@mixin center($axis: both) {
+	@if ($axis == both) {
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);	
+	}
+
+	@if $axis == h or $axis == horizontal {
+		//position: relative;
+		//left: 50%;
+		//transform: translateX(-50%);
+		margin: 0 auto;
+	}
+
+	@if $axis == v or $axis == vertical {
+		top: 50%;
+		position: absolute;
+		transform: translateY(-50%);
+	}
+}

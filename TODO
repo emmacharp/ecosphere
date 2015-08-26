@@ -1,0 +1,34 @@
+- Faire une fiche technique non-intrusive qui définit et explicite les différents régimes et/ou concepts
+
+- Faire une genre de professeur qui explique le tout (peut-être miser sur mon dessin à moi ?)
+
+- Texte d'intro...
+    L'assurance médicaments implique un circuit économique complexe ou plusieurs acteurs aus rôles différents transigent. Selon les modalités du système, certains gagnent plus que d'autres. Pour bien comprendre les implications de ce système
+
+    Nous vous proposons d'explorer ce circuit, à votre guise, à l'aide d'une représentation graphique du circuit économique de l'assurance-médicaments.
+
+    Une alternative au système actuel est aussi proposée. Vous serez en mesure de mieux en comprendre les tenants et aboutissants une fois le circuit actuel compris.
+
+    Quelques faits sur l'assurance médicaments
+
+- Texte final de conclusion
+    Blablabla
+
+- Texte d'aide
+    Naviguez en cliquant sur le personnage choisi. Seront affichées les transactions dont il fait partie. Vous pouvez en trouver les détails à la gauche du circuit.
+
+
+
+
+On clique sur un acteur 
+    -> addClass('active') 
+        [id*="transaction"][id*="{acteur_clique}"] 
+            -> addClass('shown')
+        section#{acteur_clique}
+            -> addClass('active')
+                [id*="role"]
+                    -> addClass('active')
+    on clique sur la transaction 
+        -> addClass('active').siblings().removeClass('active')
+            section#{acteur_clique}
+                [id*="{transaction_cliquee}"].addClass('active visited')

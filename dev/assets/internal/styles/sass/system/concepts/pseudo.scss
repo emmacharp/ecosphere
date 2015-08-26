@@ -1,0 +1,4 @@
+@mixin pseudo($type: default) {
+	content: "";
+	display: inline-block;
+}

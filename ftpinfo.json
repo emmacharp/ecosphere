@@ -1,0 +1,8 @@
+{
+	"host": "ftp.charp.me",
+	"port": "21",
+	"authKey": "charp",
+	
+	"src": "dev/",
+	"dest": "/httpdocs/econocircuit/"
+}

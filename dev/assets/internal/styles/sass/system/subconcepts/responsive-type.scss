@@ -1,0 +1,11 @@
+@mixin responsive-type($increment: 1) {	
+	@media #{$small} {
+		font-size: $basefont + $increment;
+	}
+	@media #{$medium} {
+		font-size: $basefont + $increment * 2;
+	}
+	@media #{$large} {
+		font-size: $basefont + $increment * 4;
+	}
+}
