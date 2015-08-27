@@ -1,13 +1,19 @@
+body, html
+	height: 100%
+	min-height: 100%
+
 body
 	// max-width: 36rem
 	// min-width: 25rem
-	background-color: #f4f4f4
+	background-color: $prime
+
 
 svg
 	overflow: visible
 
 #object-econocircuit
 	transition: all 5s	
+	max-height: 96%
 
 svg *
 	transition: all .2s ease-in-out
@@ -15,6 +21,10 @@ svg *
 
 #Information
 	// opacity: 0
+
+// patcher le support Typekit en provenance de Affinity Designer
+[style*="font-family:Aktiv"]
+	font-family: 'aktiv-grotesk' !important
 
 #montant-transfert
 	cursor: pointer
@@ -59,6 +69,11 @@ svg *
 
 // TRANSACTIONS
 
+[id*="trans_group"]
+	pointer-events: none
+	&.active
+		pointer-events: all
+
 [id*="trans-"]
 	cursor: pointer
 	transform-origin: center
@@ -80,7 +95,8 @@ svg *
 [id*="acteur-"]
 	cursor: pointer
 	transform-origin: center
-	&:hover
+	&:hover:not(.active)
+		transform: scale(1.2)
 		[id*="frame"]
 			fill: $second !important
 			+ path
@@ -88,21 +104,37 @@ svg *
 		[id*="indicator"]
 			fill: $accent !important
 	&.related
-		[id*="frame"]
-			// fill: $second !important
-			+ path
-				fill: $dk-accent !important
 		[id*="indicator"]
 			fill: $dk-accent !important
 	&.active
-		[id*="frame"]
-			fill: $second !important
-			+ path
-				fill: $tier !important
+		transform: scale(.8)
+		[id*="cartoon"], g[clip-path]
+			path
+				fill: dk($prime) !important
 		[id*="indicator"]
 			fill: $tier !important
-		// -webkit-filter: grayscale(100%);
 
+
+[id*="acteur-"].related, [id*="related-"]
+	[id*="frame"]
+		// fill: $second !important
+		+ path
+			fill: $dk-accent !important
+[id*="chosen-"], [id*="active-"]
+	[id*="frame"]
+		fill: $second !important
+		+ path
+			fill: $tier !important
+
+[id*="active-"],
+[id*="related-"],
+[id*="trans_info-"],
+[id*="to-left"],
+[id*="to-right"],
+[id*="chosen-"]
+	opacity: 0
+	&.shown
+		opacity: 1
 
 // [id*="Robert"]
 // 	cursor: pointer;
