@@ -7,6 +7,20 @@
     <g id="profondeur">
         <rect x="860.487" y="412.029" width="794.344" height="606.068" style="fill:#e2f6ff;stroke-width:3.5px;stroke:#d6ecf5;"/>
         <g id="trans_details">
+            <g id="arrow">
+                <g id="to-right">
+                    <path d="M1141.05,267.652l-0.006,-4.5l3.875,-0.005l0.005,4.5l-3.874,0.005ZM1153.92,267.636l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1167.42,267.62l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1180.92,267.603l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1194.42,267.587l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1207.92,267.571l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1221.42,267.554l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1234.92,267.538l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1248.42,267.522l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1261.92,267.506l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1275.42,267.489l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1288.92,267.473l-0.006,-4.5l4.5,-0.006l0.006,4.5l-4.5,0.006ZM1302.42,267.457l-0.006,-4.5l4.5,-0.006l0.006,4.5l-4.5,0.006ZM1315.92,267.44l-0.006,-4.5l4.5,-0.005l0.006,4.5l-4.5,0.005ZM1329.42,267.424l-0.006,-4.5l4.5,-0.005l0.006,4.5l-4.5,0.005ZM1342.92,267.408l-0.006,-4.5l4.5,-0.006l0.006,4.5l-4.5,0.006ZM1356.42,267.391l-0.006,-4.5l4.5,-0.005l0.006,4.5l-4.5,0.005ZM1369.92,267.375l-0.006,-4.5l4.5,-0.005l0.006,4.5l-4.5,0.005ZM1383.42,267.359l-0.006,-4.5l4.5,-0.006l0.006,4.5l-4.5,0.006Z" style="fill:#8500ff;"/>
+                    <path d="M1381.24,256.816l-2.894,-2.859" style="fill:none;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2,8,0,0;stroke:#8500ff;"/>
+                    <path d="M1379.83,258.238l-2.845,-2.811l2.811,-2.845l2.846,2.811l-2.812,2.845Z" style="fill:#8500ff;"/>
+                    <path d="M1381.07,277.933l-2.845,-2.812l2.811,-2.845l2.846,2.811l-2.812,2.846Z" style="fill:#8500ff;"/>
+                </g>
+                <g id="to-left">
+                    <path d="M1387.91,267.652l-3.874,-0.005l0.005,-4.5l3.875,0.005l-0.006,4.5ZM1375.04,267.636l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1361.54,267.62l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1348.04,267.603l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1334.54,267.587l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1321.04,267.571l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1307.54,267.554l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1294.04,267.538l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1280.54,267.522l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1267.04,267.506l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1253.54,267.489l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1240.04,267.473l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1226.54,267.457l-4.5,-0.006l0.006,-4.5l4.499,0.006l-0.005,4.5ZM1213.04,267.44l-4.5,-0.005l0.006,-4.5l4.5,0.005l-0.006,4.5ZM1199.54,267.424l-4.5,-0.005l0.006,-4.5l4.5,0.005l-0.006,4.5ZM1186.04,267.408l-4.5,-0.006l0.006,-4.5l4.5,0.006l-0.006,4.5ZM1172.54,267.391l-4.5,-0.005l0.006,-4.5l4.5,0.005l-0.006,4.5ZM1159.04,267.375l-4.5,-0.005l0.006,-4.5l4.5,0.005l-0.006,4.5ZM1145.54,267.359l-4.5,-0.006l0.006,-4.5l4.5,0.006l-0.006,4.5Z" style="fill:#8500ff;"/>
+                    <path d="M1147.72,256.816l2.894,-2.859" style="fill:none;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2,8,0,0;stroke:#8500ff;"/>
+                    <path d="M1149.13,258.238l-2.812,-2.845l2.846,-2.811l2.811,2.845l-2.845,2.811Z" style="fill:#8500ff;"/>
+                    <path d="M1147.89,277.933l-2.812,-2.846l2.846,-2.811l2.811,2.846l-2.845,2.811Z" style="fill:#8500ff;"/>
+                </g>
+            </g>
             <g id="trans_infos (Group)">
                 <g id="dummy-text">
                     <path d="M1621.95,991.134l-721.859,0" style="fill:none;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2,8,0,0;stroke:#b2a6bd;"/>
@@ -52,76 +66,396 @@
                         <text x="910.44px" y="778.535px" style="font-family:Aktiv Grotesk;font-size:24px;font-weight:300;fill:#95818c;">Quelques chi<tspan x="1064.69px 1072.06px " y="778.535px 778.535px ">re</tspan>s en vr<tspan x="1155.12px " y="778.535px ">a</tspan>c </text>
                     </g>
                     <g transform="matrix(1,0,0,1,12.0885,-2.20313)">
-                        <text x="902.049px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#a668df;">36%</text>
-                        <text x="1058px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#ae00ff;"> </text>
+                        <text x="902.049px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#ae00ff;"> </text>
                         <text x="902.049px" y="875.918px" style="font-family:Aktiv Grotesk;font-size:16px;fill:#95818c;"> </text>
                         <text x="902.049px" y="901.918px" style="font-family:Aktiv Grotesk;font-size:20px;fill:#95818c;">de la richesse t<tspan x="1038.63px 1050.45px 1057.39px " y="901.918px 901.918px 901.918px ">ota</tspan>le </text>
                         <text x="902.049px" y="927.918px" style="font-family:Aktiv Grotesk;font-size:20px;fill:#95818c;">du s<tspan x="939.929px 950.389px 960.829px 967.369px " y="927.918px 927.918px 927.918px 927.918px ">ystè</tspan>me</text>
                     </g>
                     <g transform="matrix(1,0,0,1,250.349,-2.20313)">
-                        <text x="902.049px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#a668df;">22</text>
-                        <text x="995.505px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#ae00ff;">  </text>
+                        <text x="902.049px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#ae00ff;">  </text>
                         <text x="902.049px" y="875.918px" style="font-family:Aktiv Grotesk;font-size:16px;fill:#95818c;"> </text>
                         <text x="902.049px" y="901.918px" style="font-family:Aktiv Grotesk;font-size:20px;fill:#95818c;">f<tspan x="908.229px 920.249px 924.749px 934.889px " y="901.918px 901.918px 901.918px 901.918px ">ois,</tspan> en mo<tspan x="1000.11px 1010.33px 1021.73px " y="901.918px 901.918px 901.918px ">yen</tspan>ne<tspan x="1055.33px " y="901.918px ">,</tspan> la </text>
                         <text x="902.049px" y="927.918px" style="font-family:Aktiv Grotesk;font-size:20px;fill:#95818c;">richesse<tspan x="979.529px " y="927.918px ">.</tspan></text>
                     </g>
                     <g transform="matrix(1,0,0,1,506.641,-2.20313)">
-                        <text x="902.049px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#a668df;">.02</text>
-                        <text x="1019.05px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#ae00ff;"> </text>
+                        <text x="902.049px" y="855.118px" style="font-family:Alfa Slab One;font-size:72px;fill:#ae00ff;"> </text>
                         <text x="902.049px" y="875.918px" style="font-family:Aktiv Grotesk;font-size:16px;fill:#95818c;"> </text>
                         <text x="902.049px" y="901.918px" style="font-family:Aktiv Grotesk;font-size:20px;fill:#95818c;">la pr<tspan x="940.389px 952.409px " y="901.918px 901.918px ">ob</tspan>abilit<tspan x="1007.09px " y="901.918px ">é</tspan> de </text>
                         <text x="902.049px" y="927.918px" style="font-family:Aktiv Grotesk;font-size:20px;fill:#95818c;">cr<tspan x="919.909px " y="927.918px ">é</tspan>ation de  ça.</text>
                     </g>
+                    <text id="dummy-number-3" x="1404.41px" y="851.93px" style="font-family:Alfa Slab One;font-size:72px;fill:#a668df;">.02</text>
+                    <text id="dummy-number-2" x="1152.06px" y="851.93px" style="font-family:Alfa Slab One;font-size:72px;fill:#a668df;">22</text>
+                    <text id="dummy-number-1" x="912.375px" y="851.93px" style="font-family:Alfa Slab One;font-size:72px;fill:#a668df;">36%</text>
                 </g>
-                <g id="trans_info-serge-ramq">
-                    <text x="1162.53px" y="372.583px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="1176.39px 1190.29px 1197.46px 1209.96px 1216.12px 1227.43px 1241.33px 1247.49px 1261.35px 1272.38px 1279.55px 1301.94px 1314.44px 1320.6px 1334.5px 1340.66px 1347.84px " y="372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px ">aie sa prime à la</tspan></text>
-                </g>
-                <g id="trans_info-assureur_prive-serge">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
-                        <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                <g id="trans_info_group-serge">
+                    <g id="trans_info-serge-ramq">
+                        <text x="1176.15px" y="372.583px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="1190.01px 1203.91px 1211.08px 1223.58px 1229.74px 1241.05px 1254.95px 1261.11px 1274.97px 1285.99px 1293.16px 1315.56px 1328.06px 1334.22px " y="372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px ">aie sa prime à</tspan></text>
+                    </g>
+                    <g id="trans_info-assureur_prive-serge">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-employeur-serge">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-serge-pharmacien">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="914.774px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="928.634px 942.538px 949.71px 962.206px 968.366px 975.538px 989.442px 995.602px 1007.35px 1020.33px 1035.03px 1044.42px 1055.44px 1062.61px 1076.78px 1091.21px 1100.61px 1107.34px 1120.32px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie la contribution</tspan> </text>
+                            <text x="948.995px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="960.083px 974.515px 985.537px 991.697px 998.869px 1011.37px 1017.52px 1029.27px 1042.47px 1056.9px 1066.3px 1072.46px 1086.36px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur le coût au</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-serge">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="947.598px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="961.59px 968.432px 982.116px 988.848px 1002.84px 1015.34px 1029.81px 1043.8px 1056.3px 1067.61px 1073.77px 1087.76px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes du</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-serge-etat_quebec">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts</tspan> </text>
+                            <text x="914.939px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="926.027px 940.459px 951.481px 957.641px 964.813px 977.309px 988.617px 994.777px 1008.77px 1015.61px 1029.3px 1036.03px 1050.02px 1062.52px 1076.99px 1090.98px 1103.48px 1114.79px 1120.95px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les dividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_quebec-serge">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px 1079.83px 1085.99px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des  </tspan></text>
+                            <text x="918.69px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="930.438px 941.46px 953.956px 967.948px 975.12px 984.514px 995.822px 1001.98px 1015.97px 1021.12px 1028.29px 1050.69px 1064.55px 1077.75px 1087.14px 1098.45px 1104.61px 1118.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_canada-serge">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px 1079.83px 1085.99px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des  </tspan></text>
+                            <text x="918.69px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="930.438px 941.46px 953.956px 967.948px 975.12px 984.514px 995.822px 1001.98px 1015.97px 1021.12px 1028.29px 1050.69px 1064.55px 1077.75px 1087.14px 1098.45px 1104.61px 1118.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-serge-etat_canada">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="916.105px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="929.965px 943.869px 951.041px 963.537px 969.697px 983.689px 996.185px 1007.49px 1013.65px 1020.83px 1043.22px 1057.08px 1070.28px 1079.67px 1090.98px 1097.14px 1108.23px 1122.66px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts sur</tspan> </text>
+                            <text x="936.29px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">l<tspan x="943.462px 955.958px 967.266px 973.426px 987.418px 994.26px 1007.94px 1014.68px 1028.67px 1041.16px 1055.64px 1069.63px 1082.13px 1093.44px 1099.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">es dividendes à</tspan></text>
+                        </g>
                     </g>
                 </g>
-                <g id="trans_info-employeur-serge">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
-                        <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                <g id="trans_info_group-suzanne">
+                    <g id="trans_info-assureur_prive-suzanne-dividendes">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-suzanne-revenus">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="922.474px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="933.496px 945.992px 957.74px 970.94px 978.112px 987.506px 993.666px 1007.66px 1020.15px 1031.46px 1037.62px 1048.64px 1061.14px 1074.82px 1087.32px 1101.58px 1116.01px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des revenus</tspan> </text>
+                            <text x="954.231px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.223px 980.719px 986.879px 996.273px 1007.08px 1020.98px 1034.66px 1048.57px 1055.52px 1062.69px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">e travail </tspan></text>
+                            <text x="1068.85px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d</text>
+                            <text x="1083.06px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">e</text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-assureur_prive">
+                        <text x="1186.18px" y="372.305px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="1200.04px 1213.94px 1221.12px 1233.61px 1239.77px 1251.08px 1264.98px 1271.14px 1285px 1296.03px 1303.2px 1325.59px " y="372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px ">aie sa prime</tspan></text>
+                    </g>
+                    <g id="trans_info-employeur-suzanne">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-pharmacien">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="914.774px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="928.634px 942.538px 949.71px 962.206px 968.366px 975.538px 989.442px 995.602px 1007.35px 1020.33px 1035.03px 1044.42px 1055.44px 1062.61px 1076.78px 1091.21px 1100.61px 1107.34px 1120.32px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie la contribution</tspan> </text>
+                            <text x="948.995px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="960.083px 974.515px 985.537px 991.697px 998.869px 1011.37px 1017.52px 1029.27px 1042.47px 1056.9px 1066.3px 1072.46px 1086.36px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur le coût au</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-suzanne">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="947.598px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="961.59px 968.432px 982.116px 988.848px 1002.84px 1015.34px 1029.81px 1043.8px 1056.3px 1067.61px 1073.77px 1087.76px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes du</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_quebec-dividendes">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px 1112.77px 1118.93px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts  </tspan></text>
+                            <text x="914.939px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="926.027px 940.459px 951.481px 957.641px 964.813px 977.309px 988.617px 994.777px 1008.77px 1015.61px 1029.3px 1036.03px 1050.02px 1062.52px 1076.99px 1090.98px 1103.48px 1114.79px 1120.95px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les dividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_quebec-revenus">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px 1112.77px 1118.93px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts  </tspan></text>
+                            <text x="930.097px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="941.185px 955.617px 966.639px 972.799px 979.971px 992.467px 1003.77px 1009.94px 1020.96px 1033.45px 1047.14px 1059.63px 1073.89px 1088.32px 1099.63px 1105.79px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les revenus à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_quebec-taxes">
+                        <g transform="matrix(1,0,0,1,203.228,-91.5586)">
+                            <text x="958.487px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="972.347px 986.251px 993.423px 1005.92px 1012.08px 1026.07px 1038.57px 1049.88px 1056.04px 1065.43px 1079.33px 1092.82px 1105.32px 1116.62px 1122.78px 1133.87px 1148.3px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des taxes sur</tspan> </text>
+                            <text x="923.793px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="937.653px 948.675px 955.847px 978.243px 990.739px 1002.05px 1008.21px 1017.07px 1023.23px 1034.98px 1047.96px 1062.66px 1072.05px 1083.07px 1090.25px 1104.41px 1118.85px 1128.24px 1134.97px 1147.95px 1162.65px 1173.95px 1180.12px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rimes / contributions à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_quebec-suzanne">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px 1079.83px 1085.99px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des  </tspan></text>
+                            <text x="918.69px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="930.438px 941.46px 953.956px 967.948px 975.12px 984.514px 995.822px 1001.98px 1015.97px 1021.12px 1028.29px 1050.69px 1064.55px 1077.75px 1087.14px 1098.45px 1104.61px 1118.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_canada-suzanne">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px 1079.83px 1085.99px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des  </tspan></text>
+                            <text x="918.69px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="930.438px 941.46px 953.956px 967.948px 975.12px 984.514px 995.822px 1001.98px 1015.97px 1021.12px 1028.29px 1050.69px 1064.55px 1077.75px 1087.14px 1098.45px 1104.61px 1118.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_canada-dividendes">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="916.105px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="929.965px 943.869px 951.041px 963.537px 969.697px 983.689px 996.185px 1007.49px 1013.65px 1020.83px 1043.22px 1057.08px 1070.28px 1079.67px 1090.98px 1097.14px 1108.23px 1122.66px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts sur</tspan> </text>
+                            <text x="936.29px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">l<tspan x="943.462px 955.958px 967.266px 973.426px 987.418px 994.26px 1007.94px 1014.68px 1028.67px 1041.16px 1055.64px 1069.63px 1082.13px 1093.44px 1099.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">es dividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_canada-revenus">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts</tspan> </text>
+                            <text x="930.097px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="941.185px 955.617px 966.639px 972.799px 979.971px 992.467px 1003.77px 1009.94px 1020.96px 1033.45px 1047.14px 1059.63px 1073.89px 1088.32px 1099.63px 1105.79px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les revenus à</tspan></text>
+                        </g>
                     </g>
                 </g>
-                <g id="trans_info-serge-pharmacien">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="914.774px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="928.634px 942.538px 949.71px 962.206px 968.366px 975.538px 989.442px 995.602px 1007.35px 1020.33px 1035.03px 1044.42px 1055.44px 1062.61px 1076.78px 1091.21px 1100.61px 1107.34px 1120.32px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie la contribution</tspan> </text>
-                        <text x="948.995px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="960.083px 974.515px 985.537px 991.697px 998.869px 1011.37px 1017.52px 1029.27px 1042.47px 1056.9px 1066.3px 1072.46px 1086.36px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur le coût au</tspan></text>
+                <g id="trans_info_group-ramq">
+                    <g id="trans_info-serge-ramq1">
+                        <text x="1164.12px" y="372.583px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="1175.14px 1187.64px 1199.39px 1212.59px 1219.76px 1229.15px 1235.32px 1242.49px 1256.39px 1262.55px 1276.41px 1287.43px 1294.61px 1317px 1329.5px 1335.66px 1349.65px " y="372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px 372.583px ">eçoit la prime de</tspan></text>
+                    </g>
+                    <g id="trans_info-ramq-pharmacien">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="916.611px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="930.471px 944.375px 951.547px 964.043px 970.203px 977.375px 989.871px 996.031px 1007.78px 1020.98px 1035.41px 1044.81px 1050.96px 1061.99px 1074.48px 1085.79px 1095.18px 1109.09px 1123.79px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie le coût restant</tspan> </text>
+                            <text x="918.965px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="932.957px 945.453px 951.613px 958.081px 963.229px 976.429px 987.121px 1001.11px 1014.09px 1028.79px 1043.49px 1057.39px 1072.09px 1083.83px 1096.33px 1102.49px 1116.39px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">e l&apos;ordonnance au</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_quebec-ramq">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="913.938px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="924.96px 937.456px 949.204px 962.404px 969.576px 978.97px 985.13px 996.878px 1009.86px 1024.55px 1033.95px 1044.97px 1052.14px 1066.31px 1080.74px 1090.14px 1096.87px 1109.85px 1124.54px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit contributions</tspan> </text>
+                            <text x="910.187px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">e<tspan x="922.683px 932.077px 938.237px 949.985px 963.185px 985.581px 999.441px 1011.94px 1026.63px 1037.94px 1051.85px 1061.24px 1067.97px 1080.95px 1095.65px 1106.95px 1113.12px 1127.11px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">t compensations de</tspan></text>
+                        </g>
                     </g>
                 </g>
-                <g id="trans_info-pharmacien-serge">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
-                        <text x="947.598px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="961.59px 968.432px 982.116px 988.848px 1002.84px 1015.34px 1029.81px 1043.8px 1056.3px 1067.61px 1073.77px 1087.76px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes du</tspan></text>
+                <g id="trans_info_group-assureur_prive">
+                    <g id="trans_info-assureur_prive-serge1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-employeur-assureur_prive">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="936.092px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="947.114px 959.61px 971.358px 984.558px 991.73px 1001.12px 1007.28px 1021.14px 1035.05px 1042.22px 1054.72px 1077.11px 1089.61px 1104.3px 1114.14px 1120.3px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit paiement  </tspan></text>
+                            <text x="957.41px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="971.402px 983.898px 995.206px 1001.37px 1012.67px 1025.17px 1035.97px 1049.66px 1056.83px 1068.58px 1081.07px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">es services</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-etat_quebec">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts</tspan> </text>
+                            <text x="938.281px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="949.369px 963.801px 974.823px 980.983px 988.155px 1000.65px 1011.96px 1018.12px 1031.98px 1042.45px 1055.65px 1063.57px 1070.74px 1080.14px 1091.44px 1097.61px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-etat_canada">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts</tspan> </text>
+                            <text x="938.281px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="949.369px 963.801px 974.823px 980.983px 988.155px 1000.65px 1011.96px 1018.12px 1031.98px 1042.45px 1055.65px 1063.57px 1070.74px 1080.14px 1091.44px 1097.61px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-actionnaire_ext">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-pharmacien">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="916.611px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="930.471px 944.375px 951.547px 964.043px 970.203px 977.375px 989.871px 996.031px 1007.78px 1020.98px 1035.41px 1044.81px 1050.96px 1061.99px 1074.48px 1085.79px 1095.18px 1109.09px 1123.79px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie le coût restant</tspan> </text>
+                            <text x="918.965px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="932.957px 945.453px 951.613px 958.081px 963.229px 976.429px 987.121px 1001.11px 1014.09px 1028.79px 1043.49px 1057.39px 1072.09px 1083.83px 1096.33px 1102.49px 1116.39px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">e l&apos;ordonnance au</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-suzanne-dividendes1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-suzanne-revenus1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="914.95px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="928.81px 942.714px 949.886px 962.382px 968.542px 982.534px 995.03px 1006.34px 1012.5px 1023.52px 1036.02px 1049.7px 1062.2px 1076.45px 1090.88px 1102.19px 1108.35px 1122.34px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des revenus de</tspan> </text>
+                            <text x="976.957px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">t<tspan x="986.351px 997.153px 1011.06px 1024.74px 1038.64px 1045.6px 1052.77px 1058.93px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ravail à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-assureur_prive1">
+                        <text x="1163.12px" y="372.305px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="1174.14px 1186.64px 1198.39px 1211.59px 1218.76px 1228.15px 1234.32px 1241.49px 1255.39px 1261.55px 1275.41px 1286.43px 1293.61px 1316px 1328.5px 1334.66px 1348.65px " y="372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px 372.305px ">eçoit la prime de</tspan></text>
                     </g>
                 </g>
-                <g id="trans_info-serge-etat_quebec">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="916.105px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="929.965px 943.869px 951.041px 963.537px 969.697px 983.689px 996.185px 1007.49px 1013.65px 1020.83px 1043.22px 1057.08px 1070.28px 1079.67px 1090.98px 1097.14px 1108.23px 1122.66px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts sur</tspan> </text>
-                        <text x="936.29px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">l<tspan x="943.462px 955.958px 967.266px 973.426px 987.418px 994.26px 1007.94px 1014.68px 1028.67px 1041.16px 1055.64px 1069.63px 1082.13px 1093.44px 1099.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">es dividendes à</tspan></text>
+                <g id="trans_info_group-employeur">
+                    <g id="trans_info-employeur-actionnaire_ext">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
                     </g>
                 </g>
-                <g id="trans_info-serge-etat_quebec1">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px 1079.83px 1085.99px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des  </tspan></text>
-                        <text x="918.69px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="930.438px 941.46px 953.956px 967.948px 975.12px 984.514px 995.822px 1001.98px 1015.97px 1021.12px 1028.29px 1050.69px 1064.55px 1077.75px 1087.14px 1098.45px 1104.61px 1118.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts de</tspan></text>
+                <g id="trans_info_group-pharmacien">
+                    <g id="trans_info-suzanne-pharmacien1">
+                        <g transform="matrix(1,0,0,1,230.898,-91.5586)">
+                            <text x="912.315px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="923.337px 935.833px 947.581px 960.781px 967.953px 977.347px 983.507px 990.679px 1004.58px 1010.74px 1022.49px 1035.47px 1050.17px 1059.56px 1070.58px 1077.76px 1091.92px 1106.36px 1115.75px 1122.48px 1135.46px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoît la contribution</tspan> </text>
+                            <text x="956.26px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="967.348px 981.78px 992.802px 998.962px 1006.13px 1018.63px 1024.79px 1036.54px 1049.74px 1064.17px 1073.56px 1079.72px 1093.72px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur le coût de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-etat_quebec">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts</tspan> </text>
+                            <text x="938.281px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="949.369px 963.801px 974.823px 980.983px 988.155px 1000.65px 1011.96px 1018.12px 1031.98px 1042.45px 1055.65px 1063.57px 1070.74px 1080.14px 1091.44px 1097.61px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-etat_canada">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="937.456px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="951.316px 965.22px 972.392px 984.888px 991.048px 1005.04px 1017.54px 1028.84px 1035px 1042.18px 1064.57px 1078.43px 1091.63px 1101.03px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts</tspan> </text>
+                            <text x="938.281px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="949.369px 963.801px 974.823px 980.983px 988.155px 1000.65px 1011.96px 1018.12px 1031.98px 1042.45px 1055.65px 1063.57px 1070.74px 1080.14px 1091.44px 1097.61px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-ramq-pharmacien1">
+                        <g transform="matrix(1,0,0,1,235.683,-92.7842)">
+                            <text x="910.367px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="921.389px 933.885px 945.633px 958.833px 966.005px 975.399px 981.559px 988.731px 1001.23px 1007.39px 1019.13px 1032.34px 1046.77px 1056.16px 1062.32px 1073.34px 1085.84px 1097.15px 1106.54px 1120.44px 1135.14px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit le coût restant</tspan> </text>
+                            <text x="922.445px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="936.437px 948.933px 955.093px 961.561px 966.709px 979.909px 990.601px 1004.59px 1017.57px 1032.27px 1046.96px 1060.87px 1075.57px 1087.31px 1099.81px 1105.97px 1119.96px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">e l&apos;ordonnance de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-pharmacien1">
+                        <g transform="matrix(1,0,0,1,235.683,-92.7842)">
+                            <text x="910.367px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="921.389px 933.885px 945.633px 958.833px 966.005px 975.399px 981.559px 988.731px 1001.23px 1007.39px 1019.13px 1032.34px 1046.77px 1056.16px 1062.32px 1073.34px 1085.84px 1097.15px 1106.54px 1120.44px 1135.14px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit le coût restant</tspan> </text>
+                            <text x="922.445px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="936.437px 948.933px 955.093px 961.561px 966.709px 979.909px 990.601px 1004.59px 1017.57px 1032.27px 1046.96px 1060.87px 1075.57px 1087.31px 1099.81px 1105.97px 1119.96px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">e l&apos;ordonnance de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-suzanne1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des</tspan> </text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-serge-pharmacien1">
+                        <g transform="matrix(1,0,0,1,230.898,-91.5586)">
+                            <text x="912.315px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="923.337px 935.833px 947.581px 960.781px 967.953px 977.347px 983.507px 990.679px 1004.58px 1010.74px 1022.49px 1035.47px 1050.17px 1059.56px 1070.58px 1077.76px 1091.92px 1106.36px 1115.75px 1122.48px 1135.46px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoît la contribution</tspan> </text>
+                            <text x="956.26px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="967.348px 981.78px 992.802px 998.962px 1006.13px 1018.63px 1024.79px 1036.54px 1049.74px 1064.17px 1073.56px 1079.72px 1093.72px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur le coût de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-serge1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des</tspan> </text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-actionnaire_ext">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des</tspan> </text>
+                            <text x="954.858px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="968.85px 975.692px 989.376px 996.108px 1010.1px 1022.6px 1037.07px 1051.06px 1063.56px 1074.87px 1081.03px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes à</tspan></text>
+                        </g>
                     </g>
                 </g>
-                <g id="trans_info-serge-etat_canada">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px 1079.83px 1085.99px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des  </tspan></text>
-                        <text x="918.69px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="930.438px 941.46px 953.956px 967.948px 975.12px 984.514px 995.822px 1001.98px 1015.97px 1021.12px 1028.29px 1050.69px 1064.55px 1077.75px 1087.14px 1098.45px 1104.61px 1118.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts de</tspan></text>
+                <g id="trans_info_group-etat_quebec">
+                    <g id="trans_info-serge-etat_quebec1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="928.656px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="939.678px 952.174px 963.922px 977.122px 984.294px 993.688px 999.848px 1013.84px 1026.34px 1037.64px 1043.8px 1050.98px 1073.37px 1087.23px 1100.43px 1109.83px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des impôts</tspan> </text>
+                            <text x="908.647px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="919.735px 934.167px 945.189px 951.349px 958.521px 971.017px 982.325px 988.485px 1002.48px 1009.32px 1023px 1029.74px 1043.73px 1056.22px 1070.7px 1084.69px 1097.19px 1108.5px 1114.65px 1128.65px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les dividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_quebec-serge1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="924.982px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="936.73px 947.752px 960.248px 974.24px 981.412px 990.806px 1002.11px 1008.27px 1022.27px 1027.41px 1034.59px 1056.98px 1070.84px 1084.04px 1093.44px 1104.74px 1110.9px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_quebec-dividendes1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="928.656px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="939.678px 952.174px 963.922px 977.122px 984.294px 993.688px 999.848px 1013.84px 1026.34px 1037.64px 1043.8px 1050.98px 1073.37px 1087.23px 1100.43px 1109.83px 1121.57px 1127.73px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des impôts  </tspan></text>
+                            <text x="908.647px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="919.735px 934.167px 945.189px 951.349px 958.521px 971.017px 982.325px 988.485px 1002.48px 1009.32px 1023px 1029.74px 1043.73px 1056.22px 1070.7px 1084.69px 1097.19px 1108.5px 1114.65px 1128.65px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les dividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_quebec-revenus1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="928.656px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="939.678px 952.174px 963.922px 977.122px 984.294px 993.688px 999.848px 1013.84px 1026.34px 1037.64px 1043.8px 1050.98px 1073.37px 1087.23px 1100.43px 1109.83px 1121.57px 1127.73px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des impôts  </tspan></text>
+                            <text x="923.805px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="934.893px 949.325px 960.347px 966.507px 973.679px 986.175px 997.483px 1003.64px 1014.67px 1027.16px 1040.85px 1053.34px 1067.6px 1082.03px 1093.34px 1099.5px 1113.49px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les revenus de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-suzanne-etat_quebec-taxes1">
+                        <g transform="matrix(1,0,0,1,203.228,-91.5586)">
+                            <text x="949.687px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="960.709px 973.205px 984.953px 998.153px 1005.33px 1014.72px 1020.88px 1034.87px 1047.37px 1058.67px 1064.84px 1074.23px 1088.13px 1101.62px 1114.12px 1125.42px 1131.58px 1142.67px 1157.1px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des taxes sur</tspan> </text>
+                            <text x="917.501px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="931.361px 942.383px 949.555px 971.951px 984.447px 995.755px 1001.92px 1010.78px 1016.94px 1028.69px 1041.67px 1056.37px 1065.76px 1076.78px 1083.95px 1098.12px 1112.55px 1121.95px 1128.68px 1141.66px 1156.36px 1167.66px 1173.82px 1187.82px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rimes / contributions de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_quebec-suzanne1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="924.982px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="936.73px 947.752px 960.248px 974.24px 981.412px 990.806px 1002.11px 1008.27px 1022.27px 1027.41px 1034.59px 1056.98px 1070.84px 1084.04px 1093.44px 1104.74px 1110.9px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts à</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-etat_quebec1">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="928.656px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="939.678px 952.174px 963.922px 977.122px 984.294px 993.688px 999.848px 1013.84px 1026.34px 1037.64px 1043.8px 1050.98px 1073.37px 1087.23px 1100.43px 1109.83px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des impôts</tspan> </text>
+                            <text x="931.989px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="943.077px 957.509px 968.531px 974.691px 981.863px 994.359px 1005.67px 1011.83px 1025.69px 1036.16px 1049.36px 1057.28px 1064.45px 1073.85px 1085.15px 1091.31px 1105.31px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-pharmacien-etat_quebec1">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="928.656px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="939.678px 952.174px 963.922px 977.122px 984.294px 993.688px 999.848px 1013.84px 1026.34px 1037.64px 1043.8px 1050.98px 1073.37px 1087.23px 1100.43px 1109.83px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des impôts</tspan> </text>
+                            <text x="931.989px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="943.077px 957.509px 968.531px 974.691px 981.863px 994.359px 1005.67px 1011.83px 1025.69px 1036.16px 1049.36px 1057.28px 1064.45px 1073.85px 1085.15px 1091.31px 1105.31px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-employeur-etat_quebec-impots">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="928.656px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="939.678px 952.174px 963.922px 977.122px 984.294px 993.688px 999.848px 1013.84px 1026.34px 1037.64px 1043.8px 1050.98px 1073.37px 1087.23px 1100.43px 1109.83px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des impôts</tspan> </text>
+                            <text x="931.989px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="943.077px 957.509px 968.531px 974.691px 981.863px 994.359px 1005.67px 1011.83px 1025.69px 1036.16px 1049.36px 1057.28px 1064.45px 1073.85px 1085.15px 1091.31px 1105.31px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les profits de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-employeur-etat_quebec-taxes">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="937.027px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="948.049px 960.545px 972.293px 985.493px 992.665px 1002.06px 1008.22px 1022.21px 1034.71px 1046.02px 1052.17px 1061.57px 1075.47px 1088.96px 1101.45px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des taxes</tspan> </text>
+                            <text x="929.525px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">s<tspan x="940.613px 955.045px 966.067px 972.227px 979.399px 991.895px 1003.2px 1009.36px 1023.22px 1034.25px 1041.42px 1063.81px 1076.31px 1087.62px 1093.78px 1107.77px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ur les primes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-etat_quebec-ramq1">
+                        <g transform="matrix(1,0,0,1,238.24,-92.2812)">
+                            <text x="908.713px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="922.573px 936.477px 943.649px 956.145px 962.305px 974.053px 987.033px 1001.73px 1011.12px 1022.14px 1029.32px 1043.49px 1057.92px 1067.31px 1074.04px 1087.02px 1101.72px 1113.03px 1119.19px 1131.68px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie contributions et</tspan> </text>
+                            <text x="930.504px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="942.252px 955.452px 977.848px 991.708px 1004.2px 1018.9px 1030.21px 1044.11px 1053.51px 1060.24px 1073.22px 1087.91px 1099.22px 1105.38px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ompensations à</tspan></text>
+                        </g>
                     </g>
                 </g>
-                <g id="trans_info-serge-etat_canada1">
-                    <g transform="matrix(1,0,0,1,237.24,-91.5586)">
-                        <text x="916.105px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="929.965px 943.869px 951.041px 963.537px 969.697px 983.689px 996.185px 1007.49px 1013.65px 1020.83px 1043.22px 1057.08px 1070.28px 1079.67px 1090.98px 1097.14px 1108.23px 1122.66px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des impôts sur</tspan> </text>
-                        <text x="936.29px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">l<tspan x="943.462px 955.958px 967.266px 973.426px 987.418px 994.26px 1007.94px 1014.68px 1028.67px 1041.16px 1055.64px 1069.63px 1082.13px 1093.44px 1099.6px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">es dividendes à</tspan></text>
+                <g id="trans_info_group-etat_canada">
+                    <g id="trans_info-etat_canada-serge1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="979.201px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">p<tspan x="993.061px 1006.97px 1014.14px 1026.63px 1032.79px 1046.79px 1059.28px 1071.03px 1077.19px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">aie des  </tspan></text>
+                            <text x="924.982px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">c<tspan x="936.73px 947.752px 960.248px 974.24px 981.412px 990.806px 1002.11px 1008.27px 1022.27px 1027.41px 1034.59px 1056.98px 1070.84px 1084.04px 1093.44px 1104.74px 1110.9px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">rédits d&apos;impôts à</tspan></text>
+                        </g>
+                    </g>
+                </g>
+                <g id="trans_info_group-actionnaire_ext">
+                    <g id="trans_info-pharmacien-actionnaire_ext1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-assureur_prive-actionnaire_ext1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                    <g id="trans_info-employeur-actionnaire_ext1">
+                        <g transform="matrix(1,0,0,1,237.24,-91.5586)">
+                            <text x="970.401px" y="435.864px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">r<tspan x="981.423px 993.919px 1005.67px 1018.87px 1026.04px 1035.43px 1041.59px 1055.59px 1068.08px " y="435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px 435.864px ">eçoit des</tspan> </text>
+                            <text x="948.566px" y="464.464px" style="font-family:Alfa Slab One;font-size:22px;fill:#95818c;">d<tspan x="962.558px 969.4px 983.084px 989.816px 1003.81px 1016.3px 1030.78px 1044.77px 1057.27px 1068.58px 1074.74px 1088.73px " y="464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px 464.464px ">ividendes de</tspan></text>
+                        </g>
+                    </g>
+                </g>
+                <g id="trans-montant">
+                    <g id="box-transfert">
+                        <path d="M1302.26,244.109c0,-2.86 -2.322,-5.182 -5.182,-5.182l-76.733,0c-2.859,0 -5.181,2.322 -5.181,5.182l0,41.451c0,2.86 2.322,5.181 5.181,5.181l76.733,0c2.86,0 5.182,-2.321 5.182,-5.181l0,-41.451Z" style="fill:#f2fbff;"/>
+                    </g>
+                    <g id="dummy-number-4" transform="matrix(1,0,0,1,2,8)">
+                        <text x="1236.98px" y="267.213px" style="font-family:Aktiv Grotesk;font-size:36px;font-weight:700;fill:#ae00ff;">3<tspan x="1257.22px " y="267.213px "> </tspan></text>
+                        <text x="1264.13px" y="264.958px" style="font-family:Aktiv Grotesk;font-size:30px;fill:#ae00ff;">$</text>
                     </g>
                 </g>
             </g>
@@ -879,20 +1213,6 @@
                         </g>
                     </g>
                     <text x="1458.27px" y="373.291px" style="font-family:Alfa Slab One;font-size:22px;fill:#a668df;">La R.A.M.Q.</text>
-                </g>
-            </g>
-            <g id="arrow">
-                <g id="to-right">
-                    <path d="M1114.11,267.531l-0.005,-4.5l3.753,-0.005l0.005,4.5l-3.753,0.005ZM1126.86,267.515l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1140.36,267.499l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1153.86,267.483l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1167.36,267.466l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1180.86,267.45l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1194.36,267.434l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1207.86,267.417l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1221.36,267.401l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1234.86,267.385l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1248.36,267.368l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1261.86,267.352l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1275.36,267.336l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1288.86,267.32l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1302.36,267.303l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1315.86,267.287l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1329.36,267.271l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1342.86,267.254l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1356.36,267.238l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1369.86,267.222l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006ZM1383.36,267.205l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1396.86,267.189l-0.005,-4.5l4.5,-0.005l0.005,4.5l-4.5,0.005ZM1410.36,267.173l-0.005,-4.5l4.5,-0.006l0.005,4.5l-4.5,0.006Z" style="fill:#8500ff;"/>
-                    <path d="M1406.72,254.821l-3.525,-3.483" style="fill:none;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2,8,0,0;stroke:#8500ff;"/>
-                    <path d="M1405.31,256.244l-2.846,-2.812l2.811,-2.845l2.846,2.811l-2.811,2.846Z" style="fill:#8500ff;"/>
-                    <path d="M1406.82,279.619l-2.846,-2.811l2.812,-2.846l2.845,2.812l-2.811,2.845Z" style="fill:#8500ff;"/>
-                </g>
-                <g id="to-left">
-                    <path d="M1414.85,267.531l-3.754,-0.005l0.006,-4.5l3.753,0.005l-0.005,4.5ZM1402.1,267.515l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1388.6,267.499l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1375.1,267.483l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1361.6,267.466l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1348.1,267.45l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1334.6,267.434l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1321.1,267.417l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1307.6,267.401l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1294.1,267.385l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1280.6,267.368l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1267.1,267.352l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1253.6,267.336l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1240.1,267.32l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1226.6,267.303l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1213.1,267.287l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1199.6,267.271l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1186.1,267.254l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1172.6,267.238l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1159.1,267.222l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5ZM1145.6,267.205l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1132.1,267.189l-4.5,-0.005l0.005,-4.5l4.5,0.005l-0.005,4.5ZM1118.6,267.173l-4.5,-0.006l0.005,-4.5l4.5,0.006l-0.005,4.5Z" style="fill:#8500ff;"/>
-                    <path d="M1122.24,254.821l3.525,-3.483" style="fill:none;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2,8,0,0;stroke:#8500ff;"/>
-                    <path d="M1123.65,256.244l-2.811,-2.846l2.845,-2.811l2.812,2.845l-2.846,2.812Z" style="fill:#8500ff;"/>
-                    <path d="M1122.14,279.619l-2.811,-2.845l2.845,-2.812l2.812,2.846l-2.846,2.811Z" style="fill:#8500ff;"/>
                 </g>
             </g>
         </g>
@@ -1859,7 +2179,7 @@
                         <path d="M499.646,419.224l-0.852,-2.877l2.876,-0.852l0.853,2.876l-2.877,0.853Z" style="fill:#a5a6d3;"/>
                     </g>
                 </g>
-                <g id="trans-employeur-assureur_prive">
+                <g id="trans-employeur-assureur_prive-ordonnance">
                     <g id="arrow69">
                         <path d="M629.033,523.138l-17.597,-33.176l-61.127,32.423l17.598,33.177l61.126,-32.424Z" style="fill:#d1e5ed;fill-opacity:0;"/>
                         <path d="M561.359,539.119l-1.443,-2.63l1.403,-0.771l1.444,2.63l-1.404,0.771ZM568.022,535.46l-1.444,-2.629l2.63,-1.444l1.444,2.63l-2.63,1.443ZM575.911,531.129l-1.444,-2.63l2.63,-1.444l1.444,2.63l-2.63,1.444ZM583.8,526.797l-1.444,-2.629l2.63,-1.444l1.444,2.63l-2.63,1.443ZM591.689,522.466l-1.443,-2.63l2.629,-1.444l1.444,2.63l-2.63,1.444ZM599.578,518.134l-1.443,-2.629l2.629,-1.444l1.444,2.63l-2.63,1.443ZM607.468,513.803l-1.444,-2.63l2.629,-1.444l1.444,2.63l-2.629,1.444ZM615.357,509.472l-1.444,-2.63l2.63,-1.444l1.443,2.63l-2.629,1.444Z" style="fill:#a5a6d3;"/>
@@ -1867,12 +2187,12 @@
                         <path d="M615.995,521.224l-2.818,-1.03l1.03,-2.817l2.818,1.03l-1.03,2.817Z" style="fill:#a5a6d3;"/>
                     </g>
                 </g>
-                <g id="trans-assureur_prive-employeur1">
+                <g id="trans-employeur-assureur_prive-services">
                     <g id="arrow70">
-                        <path d="M528.761,492.839l17.966,32.978l60.762,-33.101l-17.966,-32.978l-60.762,33.101Z" style="fill:#d1e5ed;fill-opacity:0;"/>
-                        <path d="M541.448,510.439l-1.473,-2.613l2.614,-1.473l1.473,2.613l-2.614,1.473ZM549.289,506.02l-1.473,-2.613l2.613,-1.473l1.473,2.613l-2.613,1.473ZM557.129,501.601l-1.473,-2.613l2.614,-1.473l1.473,2.613l-2.614,1.473ZM564.97,497.182l-1.473,-2.613l2.613,-1.473l1.473,2.613l-2.613,1.473ZM572.81,492.763l-1.473,-2.613l2.614,-1.473l1.473,2.613l-2.614,1.473ZM580.651,488.344l-1.473,-2.613l2.613,-1.473l1.473,2.613l-2.613,1.473ZM588.491,483.925l-1.473,-2.613l2.613,-1.473l1.473,2.613l-2.613,1.473ZM596.331,479.506l-1.473,-2.613l1.395,-0.786l1.473,2.613l-1.395,0.786Z" style="fill:#a5a6d3;"/>
-                        <path d="M553.907,516.952l-2.829,-0.998l0.999,-2.829l2.829,0.999l-0.999,2.828Z" style="fill:#a5a6d3;"/>
-                        <path d="M543.65,498.435l-2.829,-0.998l0.999,-2.829l2.829,0.999l-0.999,2.828Z" style="fill:#a5a6d3;"/>
+                        <path d="M609.474,489.858l-17.001,-33.485l-61.697,31.324l17.001,33.485l61.697,-31.324Z" style="fill:#d1e5ed;fill-opacity:0;"/>
+                        <path d="M541.525,504.625l-1.397,-2.655l1.417,-0.745l1.397,2.655l-1.417,0.745ZM548.252,501.087l-1.397,-2.656l2.656,-1.396l1.396,2.655l-2.655,1.397ZM556.217,496.897l-1.396,-2.655l2.655,-1.397l1.396,2.655l-2.655,1.397ZM564.183,492.707l-1.397,-2.655l2.655,-1.396l1.397,2.655l-2.655,1.396ZM572.148,488.518l-1.396,-2.655l2.655,-1.397l1.396,2.655l-2.655,1.397ZM580.113,484.328l-1.396,-2.655l2.655,-1.397l1.397,2.655l-2.656,1.397ZM588.079,480.138l-1.397,-2.655l2.655,-1.396l1.397,2.655l-2.655,1.396ZM596.044,475.949l-1.396,-2.655l2.655,-1.397l1.396,2.655l-2.655,1.397Z" style="fill:#a5a6d3;"/>
+                        <path d="M586.757,468.904l-2.799,-1.08l1.08,-2.799l2.799,1.08l-1.08,2.799Z" style="fill:#a5a6d3;"/>
+                        <path d="M596.472,487.711l-2.799,-1.08l1.08,-2.799l2.799,1.08l-1.08,2.799Z" style="fill:#a5a6d3;"/>
                     </g>
                 </g>
                 <g id="trans-employeur-etat_quebec-impots1">
@@ -2276,11 +2596,14 @@
     </g>
     <g id="ui">
         <rect x="27.883" y="31.101" width="1626.65" height="98.198" style="fill:#e2f6ff;"/>
-        <g transform="matrix(1,0,0,1,-800.931,-810.695)">
+        <g transform="matrix(1,0,0,1,-800.931,-812.695)">
             <text x="865.229px" y="895.666px" style="font-family:Alfa Slab One;font-size:36px;fill:#95818c;">L<tspan x="884.525px " y="895.666px ">&apos;</tspan>ass<tspan x="955.229px 979.565px 997.961px " y="895.666px 895.666px 895.666px ">ura</tspan>nce-médicaments au Québec </text>
-            <text x="865.229px" y="919.966px" style="font-family:Aktiv Grotesk;font-size:18px;font-weight:300;fill:#95818c;">D<tspan x="879.305px 883.373px 896.981px 910.841px 916.295px 928.913px 940.757px 954.995px 960.485px 977.009px 989.033px 994.487px 1011.01px 1016.5px 1029.15px 1041.21px 1053.24px 1058.69px 1071.4px 1085.01px 1090.46px 1103.08px 1114.92px 1129.16px 1134.65px 1151.18px 1163.2px 1168.65px 1181.24px 1194.85px 1207.52px 1218.86px 1224.35px 1238.55px 1244px 1257.61px 1271.47px 1276.96px 1290.08px 1302.11px 1314.73px 1327.72px 1339.75px " y="919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px 919.966px ">&apos;UN RÉGIME MIXTE AU RÉGIME PUBLIC UNIVERSEL</tspan></text>
+            <text x="865.229px" y="922.666px" style="font-family:Aktiv Grotesk;font-size:18px;font-weight:300;fill:#5a3e4e;">D<tspan x="879.665px 884.093px 898.061px 912.281px 918.095px 931.073px 943.277px 957.875px 963.725px 980.609px 992.993px 998.807px 1015.69px 1021.54px 1034.56px 1046.97px 1059.36px 1065.17px 1078.24px 1092.21px 1098.02px 1111px 1123.2px 1137.8px 1143.65px 1160.54px 1172.92px 1178.74px 1191.68px 1205.64px 1218.68px 1230.38px 1236.23px 1250.79px 1256.6px 1270.57px 1284.79px 1290.64px 1304.12px 1316.51px 1329.49px 1342.84px 1355.23px " y="922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px 922.666px ">&apos;UN RÉGIME MIXTE AU RÉGIME PUBLIC UNIVERSEL</tspan></text>
         </g>
-        <text x="1343.28px" y="105.009px" style="font-family:Aktiv Grotesk;font-size:16px;fill:#95818c;">u<tspan x="1352.9px 1362.66px 1372.42px 1376.63px 1386.39px 1392.45px 1402.07px 1412.24px 1422px 1426.21px 1435.97px 1445.4px 1455.65px 1465.41px 1475.67px 1490.08px 1494.32px 1504.52px 1514.13px 1523.89px 1528.1px 1538.28px 1548.04px 1552.24px 1564.18px 1573.43px 1587.84px 1597.6px 1607.03px " y="105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px 105.009px ">ne étude économique de Dameco</tspan></text>
+        <g transform="matrix(1,0,0,1,103.281,18.2188)">
+            <text x="1240px" y="91.79px" style="font-family:Aktiv Grotesk;font-size:16px;fill:#95818c;">u<tspan x="1249.62px 1259.38px 1269.14px 1273.35px 1283.11px 1289.17px 1298.79px 1308.96px 1318.72px 1322.93px 1332.69px 1342.12px 1352.37px 1362.13px 1372.39px 1386.8px 1391.04px 1401.24px 1410.85px 1420.61px 1424.82px 1435px 1444.76px " y="91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px 91.79px ">ne étude économique de </tspan></text>
+            <text x="1448.96px" y="91.79px" style="font-family:Aktiv Grotesk;font-size:16px;font-weight:700;fill:#95818c;">D<tspan x="1461.08px 1470.69px 1485.33px 1495.39px 1505.14px " y="91.79px 91.79px 91.79px 91.79px 91.79px ">améco</tspan></text>
+        </g>
     </g>
     <defs>
         <linearGradient id="_Linear6" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1.43967e-05,-178.968,174.24,-1.47873e-05,957.806,222.966)"><stop offset="0%" style="stop-color:#fff;stop-opacity:1"/><stop offset="100%" style="stop-color:#231f20;stop-opacity:1"/></linearGradient>

@@ -1,34 +1,28 @@
 /* Author: Emma Charpentier */
 // var svgDoc, linkElm, svgObject, RobertMalade;
-var active_acteur, related_acteur, active_trans;
+var active_acteur, related_acteur, active_trans, n;
 $(document).ready(function() {
 
-// $(window).load(function () {
-	// svgObject = document.getElementById("object-econocircuit");
-// alert('LOAD');
-//it's important to add an load event listener to the object, as it will load the svg doc asynchronously
 
-	// svgDoc = svgObject.contentDocument;
-	// linkElm = svgDoc.createElementNS("http://www.w3.org/1999/xhtml", "link");
-	// linkElm.setAttribute("href", "../../../assets/internal/styles/css/main.css");
-	// linkElm.setAttribute("type", "text/css");
-	// linkElm.setAttribute("rel", "stylesheet");
-	// svgDoc.getElementById("svg-econocircuit-vertical").appendChild(linkElm);
+	// Génère un nombre entier entre 0 et 99 inclusifs
+	n= parseInt(Math.random()*100);
 
-	// Robert = svgDoc.getElementById("Robert");
-	// RobertMalade = svgDoc.getElementById("Robert-malade");
+	// Si on ne veut pas que n puisse être égal à 0
+	n = 0;
+	while (n == 0) {
+	    n = parseInt(Math.random()*100);
+	}
 
-	// RobertMalade.addEventListener('click', function(){
-	// 	RobertMalade.setAttribute('class', 'hidden');
-	// }, false);
+	// Génère un nombre entre 0 et 9 inclusivement et le multiplie par 1,10 ou 100 choisi aléatoirement
+	n = parseInt(Math.random()*100)*Math.pow(10,parseInt(Math.random()*3));
 
-	// Robert.addEventListener('click', function(){
-	// 	RobertMalade.setAttribute('class', '');
-	// }, false);
+	// Pareil, pour s'assurer que n != 0
+	n = 0;
+	while (n == 0) {
+	    n = parseInt(Math.random()*100)*Math.pow(10,parseInt(Math.random()*3));
+	}
 
-	// svgObject.style.opacity = 1;
-
-// });
+	$('[id="niveau-2"]').fadeOut(0);
 
 	// Événement click sur une transaction dans le graphe
 	$('[id*="trans-"]').on('click', function(){
@@ -42,13 +36,30 @@ $(document).ready(function() {
 
 		console.log(active_acteur,related_acteur);
 
+		$('[id*="dummy-number"]').each(function(){
+			if($(this).is('[id*="dummy-number-1"]')){
+				n = parseInt(Math.random()*100);
+				$(this).html(n);
+				$(this).append('%');
+			}
+			if($(this).is('[id*="dummy-number-3"]')){
+				n = parseInt(Math.random()*100);
+				$(this).html(n);
+				$(this).prepend('.');
+			}
+			if($(this).is('[id*="dummy-number-4"]')){
+				n = parseInt(Math.random()*10);
+				$(this).children('text:first-child').html(n);
+			}
+		});
+
 		// Active la transaction dans le graphe
 		trans_elem
 			.addClass('active')
 			.siblings()
 				.removeClass('active');
 
-		$('[id*="to-"].shown').removeClass("shown");
+		$('[id*="to-"].shown, [id*="trans-montant"].shown, [id*="trans_info"].shown').removeClass("shown");
 
 		// Active l'acteur relatif
 		$('[id*="acteur-'+related_acteur+'"]')
@@ -60,7 +71,7 @@ $(document).ready(function() {
 				.removeClass('related');
 
 		// Active le panneau de détails de la transaction
-		$('[id*="trans_info-'+active_trans+'"]')
+		$('[id*="trans_info_group-'+active_acteur+'"] [id*="trans_info-'+active_trans+'"], [id*="trans-montant"]')
 			.addClass('shown')
 			.siblings()
 				.removeClass('shown');
@@ -137,10 +148,40 @@ $(document).ready(function() {
 					.addClass('shown');
 
 		// Désactive les éléments actifs du panneau de détails
-		$('[id*="trans_infos-'+active_trans+'"].shown, [id*="active-"], [id*="related-"]').removeClass("shown");
+		$('[id*="trans_info-'+active_trans+'"].shown, [id*="trans-montant"].shown, [id*="active-"], [id*="related-"]').removeClass("shown");
 
 		// Active l'acteur émetteur et la description du panneau principal
 		$('[id*="active-'+active_acteur+'"], [id*="acteur_description-'+acteur_id+'"]').addClass("shown");
 	});
+
+	$('[id*="dummy-number-1"]').on('click', function(){
+		$('[id="niveau-2"]').fadeIn();
+		$('[id="niveau-1"]').css({transform: 'scaleX(.90)'})
+		.children('rect').css({'fill': '#fafafa'});
+	});
+
+	$('[id*="role-1"]').on('click', function(){
+		$('[id*="circuit"] [id*="ramq"]').css({opacity: '0'});
+		$('[id*="circuit"] [id*="pharmacien"]').css({opacity: '0'});
+		$('[id="ui"]').children('text').html('L’assurance-vie');
+		// $('[id*="trans-assureur_prive-pharmacien1"]').css({opacity: '0'});
+		$('body').css({'background-color': '#CCC'});
+	});
+
+	$('[id*="role-2"]').on('click', function(){
+		$('[id*="circuit"] [id*="ramq"]').attr('style', '');
+		$('[id*="circuit"] [id*="pharmacien"]').attr('style', '');
+		// $('[id*="trans-assureur_prive-pharmacien1"]').css({opacity: '1'});
+		$('[id="ui"]').children('text').html('L’assurance-médicaments');
+		$('body').attr('style', '');
+	});
+
+	// $('[id*="blbala"]').hover(
+	// 	function(){
+	// 		$(this).children('path').css({fill: '#ffffff'});
+	// 	},
+	// 	function(){
+	// 		$(this).children('path').attr('style', '');
+	// 	});
 
 });

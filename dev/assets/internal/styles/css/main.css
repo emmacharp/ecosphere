@@ -463,12 +463,15 @@ img {
 -------------------------------------- */
 /* !-- Object selectors  */
 /* !-- Quarantined Rulesets  */
+* {
+  transform-origin: center center; }
+
 body, html {
   height: 100%;
   min-height: 100%; }
 
 body {
-  background-color: #CFE1E5; }
+  background-color: #D8E7EE; }
 
 svg {
   overflow: visible; }
@@ -478,7 +481,7 @@ svg {
   max-height: 96%; }
 
 svg * {
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   opacity: 1; }
 
 [style*="font-family:Aktiv"] {
@@ -489,7 +492,7 @@ svg * {
   #montant-transfert #definition-transfert {
     transform: translateY(10%);
     opacity: 0;
-    transition: all 0.1s ease-in-out; }
+    transition: all .1s ease-in-out; }
   #montant-transfert:hover #box-transfert {
     transform: scale(1.1, 1.1); }
   #montant-transfert:hover #definition-transfert {
@@ -515,10 +518,8 @@ svg * {
     transform: scale(1.2); }
     [id*="trans-"]:hover path {
       fill: #A668DF !important; }
-  [id*="trans-"].active {
-    transform: scale(1.4); }
-    [id*="trans-"].active path {
-      fill: #8500ff !important; }
+  [id*="trans-"].active path {
+    fill: #8500ff !important; }
   [id*="trans-"].shown {
     opacity: 1; }
 
@@ -550,20 +551,40 @@ svg * {
   [id*="chosen-"] [id*="frame"] + path, [id*="active-"] [id*="frame"] + path {
     fill: #EBFFCE !important; }
 
+[id*="chosen-"] [id*="role"] [id*="frame"], [id*="active-"] [id*="role"] [id*="frame"] {
+  fill: #EBFFCE !important;
+  cursor: pointer; }
+
+[id*="chosen-"] [id*="role"]:hover [id*="frame"], [id*="active-"] [id*="role"]:hover [id*="frame"] {
+  fill: #FFFC00 !important; }
+
 [id*="active-"],
 [id*="related-"],
 [id*="trans_info-"],
 [id*="to-left"],
 [id*="to-right"],
-[id*="chosen-"] {
-  opacity: 0; }
+[id*="chosen-"],
+[id*="trans-montant"] {
+  opacity: 0;
+  pointer-events: none; }
   [id*="active-"].shown,
   [id*="related-"].shown,
   [id*="trans_info-"].shown,
   [id*="to-left"].shown,
   [id*="to-right"].shown,
-  [id*="chosen-"].shown {
+  [id*="chosen-"].shown,
+  [id*="trans-montant"].shown {
+    pointer-events: all;
     opacity: 1; }
+
+[id*="trans_info"] [id*="blbala"],
+[id*="to-left"],
+[id*="to-right"] {
+  cursor: pointer; }
+  [id*="trans_info"] [id*="blbala"]:hover path,
+  [id*="to-left"]:hover path,
+  [id*="to-right"]:hover path {
+    fill: #EBFFCE !important; }
 
 [id*="yeux"] {
   animation-duration: 18s;
@@ -589,38 +610,41 @@ svg * {
 
 [id*="oeil_ferme"],
 [id*="oeil_ouvert"] {
-  animation-duration: 6s;
   animation-iteration-count: infinite; }
-  [id*="pharmacien"] [id*="oeil_ferme"],
-  [id*="pharmacien"] [id*="oeil_ouvert"] {
+  [id*="pharmacien"] [id*="oeil_ferme"], [id*="pharmacien"]
+  [id*="oeil_ouvert"] {
     animation-delay: 2s; }
-  [id*="etat_quebec"] [id*="oeil_ferme"],
-  [id*="etat_quebec"] [id*="oeil_ouvert"] {
+  [id*="etat_quebec"] [id*="oeil_ferme"], [id*="etat_quebec"]
+  [id*="oeil_ouvert"] {
     animation-delay: 1s; }
-  [id*="etat_canada"] [id*="oeil_ferme"],
-  [id*="etat_canada"] [id*="oeil_ouvert"] {
+  [id*="etat_canada"] [id*="oeil_ferme"], [id*="etat_canada"]
+  [id*="oeil_ouvert"] {
     animation-delay: 4s; }
-  [id*="actionnaire_ext"] [id*="oeil_ferme"],
-  [id*="actionnaire_ext"] [id*="oeil_ouvert"] {
+  [id*="actionnaire_ext"] [id*="oeil_ferme"], [id*="actionnaire_ext"]
+  [id*="oeil_ouvert"] {
     animation-delay: 3s; }
-  [id*="employeur"] [id*="oeil_ferme"],
-  [id*="employeur"] [id*="oeil_ouvert"] {
+  [id*="employeur"] [id*="oeil_ferme"], [id*="employeur"]
+  [id*="oeil_ouvert"] {
     animation-delay: 3.5s; }
-  [id*="assureur_prive"] [id*="oeil_ferme"],
-  [id*="assureur_prive"] [id*="oeil_ouvert"] {
+  [id*="assureur_prive"] [id*="oeil_ferme"], [id*="assureur_prive"]
+  [id*="oeil_ouvert"] {
     animation-delay: 1.5s; }
-  [id*="serge"] [id*="oeil_ferme"],
-  [id*="serge"] [id*="oeil_ouvert"] {
+  [id*="serge"] [id*="oeil_ferme"], [id*="serge"]
+  [id*="oeil_ouvert"] {
     animation-delay: 2.5s; }
-  [id*="suzanne"] [id*="oeil_ferme"],
-  [id*="suzanne"] [id*="oeil_ouvert"] {
+  [id*="suzanne"] [id*="oeil_ferme"], [id*="suzanne"]
+  [id*="oeil_ouvert"] {
     animation-delay: 4.5s; }
-  [id*="ramq"] [id*="oeil_ferme"],
-  [id*="ramq"] [id*="oeil_ouvert"] {
+  [id*="ramq"] [id*="oeil_ferme"], [id*="ramq"]
+  [id*="oeil_ouvert"] {
     animation-delay: .5s; }
 
+[id*="oeil_ouvert"] {
+  animation-name: clignement_ouvert; }
+
 [id*="oeil_ferme"] {
-  opacity: 0; }
+  opacity: 0;
+  animation-name: clignement_ferme; }
 
 @keyframes clignement_ouvert {
   0% {
