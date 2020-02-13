@@ -358,13 +358,13 @@ $str-quaternary:
 /* !BASE FONT-SIZE ---- */
 html {
   font-size: 18px; }
-  @media only screen and (min-width: 22.2222em) {
+  @media only screen and (min-width: 22.22222em) {
     html {
       font-size: 19px; } }
-  @media only screen and (min-width: 44.4444em) {
+  @media only screen and (min-width: 44.44444em) {
     html {
       font-size: 20px; } }
-  @media only screen and (min-width: 66.6667em) {
+  @media only screen and (min-width: 66.66667em) {
     html {
       font-size: 22px; } }
 
@@ -420,7 +420,7 @@ a:visited {
 sup {
   vertical-align: super;
   font-size: .48375em;
-  line-height: 1.0312rem; }
+  line-height: 1.03125rem; }
 
 /* !NAVIGATION LINKS ---- */
 nav a {
@@ -436,10 +436,10 @@ img {
 .object, .element {
   box-sizing: border-box;
   line-height: 1.375rem; }
-  @media only screen and (max-width: 22.2222em) {
+  @media only screen and (max-width: 22.22222em) {
     .object, .element {
       position: relative; } }
-  @media only screen and (min-width: 22.2222em) {
+  @media only screen and (min-width: 22.22222em) {
     .object, .element {
       position: relative;
       width: auto;
@@ -464,7 +464,8 @@ img {
 /* !-- Object selectors  */
 /* !-- Quarantined Rulesets  */
 * {
-  transform-origin: center center; }
+  transform-origin: center center;
+  transform-box: fill-box; }
 
 body, html {
   height: 100%;
@@ -715,5 +716,3 @@ svg * {
     transform: translateX(0em); } }
 
 /* !DEVELOPMENT UTILITIES ---- */
-
-/*# sourceMappingURL=main.css.map */
